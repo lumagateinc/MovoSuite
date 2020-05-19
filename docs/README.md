@@ -22,7 +22,9 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 ## Install and Configuration Checklist<!-- omit in toc -->
 
-The following is a high-level implementation checklist for MovoSuite, with links to detailed steps for each item on the list.
+The following is a high-level implementation checklist for MovoSuite, with links to detailed steps for each item on the list. 
+
+*To configure MovoSuite, 1) click the task's link, 2) complete the steps, then click the "return to checklist" link to return to this checklist.*
 
 - Prerequisites
 - Step 1
