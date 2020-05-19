@@ -4,6 +4,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 ## Table of Contents
 
+- [Install and Configuration Checklist](#install-and-configuration-checklist)
 - [Home Screen](#home-screen)
 - [Request Deployment](#request-deployment)
 - [Request App](#request-app)
@@ -18,13 +19,17 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
   - [Requests](#requests)
   - [Experimental](#experimental)
 
+## Install and Configuration Checklist<!-- omit in toc -->
+
+[back to ToC](#table-of-contents)
+
 ## Home Screen<!-- omit in toc -->
 
 ![001](images/home_all.png)
 
 **FIGURE X**. MovoSuite Home
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ## Request Deployment<!-- omit in toc -->
 
