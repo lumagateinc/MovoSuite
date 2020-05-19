@@ -8,19 +8,19 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 ## Table of Contents
 
-[Home Screen](#home-screen)
-[Request Deployment](#request-deployment)
-[Request App](#request-app)
-[Configuration](#configuration)
-[Onboarding](#onboarding)
-[General](#general)
-[Email](#email)
-[Integration](#integration)
-[Locations](#locations)
-[Apps](#apps)
-[Devices](#devices) 
-[Requests](#requests)
-[Experimental](#experimental)
+- [Home Screen](#home-screen)
+- [Request Deployment](#request-deployment)
+- [Request App](#request-app)
+- [Configuration](#configuration)
+  - [Onboarding](#onboarding)
+  - [General](#general)
+  - [Email](#email)
+  - [Integration](#integration)
+  - [Locations](#locations)
+  - [Apps](#apps)
+  - [Devices](#devices)
+  - [Requests](#requests)
+  - [Experimental](#experimental)
 
 ## Home Screen<!-- omit in toc -->
 
