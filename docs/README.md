@@ -39,7 +39,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ## Request App<!-- omit in toc -->
 
@@ -49,7 +49,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ## Configuration<!-- omit in toc -->
 
@@ -57,7 +57,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ### Onboarding<!-- omit in toc -->
 
@@ -67,7 +67,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ### General<!-- omit in toc -->
 
@@ -75,7 +75,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ### Email<!-- omit in toc -->
 
@@ -85,7 +85,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ### Integration<!-- omit in toc -->
 
@@ -95,7 +95,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ### Locations<!-- omit in toc -->
 
@@ -105,7 +105,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ### Apps<!-- omit in toc -->
 
@@ -115,7 +115,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ### Devices <!-- omit in toc -->
 
@@ -124,7 +124,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 ![001](images/icon.png)
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ### Requests<!-- omit in toc -->
 
@@ -133,7 +133,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 ![001](images/icon.png)
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ### Experimental<!-- omit in toc -->
 
@@ -143,4 +143,4 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 **FIGURE X**. Figure Description
 
-[back to ToC](#table-of-contents)
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
