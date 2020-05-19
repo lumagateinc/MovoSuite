@@ -24,21 +24,24 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 
 ## Home Screen<!-- omit in toc -->
 
-![001](images/icon.png)
-**FIGURE X**. Figure Description
+![001](images/home_all.png)
+
+**FIGURE X**. MovoSuite Home
 
 [back to ToC](#table-of-contents)
 
 ## Request Deployment<!-- omit in toc -->
 
-![001](images/icon.png)
+![001](images/req_dep_all.png)
+
 **FIGURE X**. Figure Description
 
 [back to ToC](#table-of-contents)
 
 ## Request App<!-- omit in toc -->
 
-![001](images/icon.png)
+![001](images/req_app_all.png)
+
 **FIGURE X**. Figure Description
 
 [back to ToC](#table-of-contents)
@@ -46,13 +49,15 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 ## Configuration<!-- omit in toc -->
 
 ![001](images/icon.png)
+
 **FIGURE X**. Figure Description
 
 [back to ToC](#table-of-contents)
 
 ### Onboarding<!-- omit in toc -->
 
-![001](images/icon.png)
+![001](images/cfg_onb_all.png)
+
 **FIGURE X**. Figure Description
 
 [back to ToC](#table-of-contents)
@@ -60,6 +65,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 ### General<!-- omit in toc -->
 
 ![001](images/icon.png)
+
 **FIGURE X**. Figure Description
 
 [back to ToC](#table-of-contents)
@@ -67,6 +73,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 ### Email<!-- omit in toc -->
 
 ![001](images/icon.png)
+
 **FIGURE X**. Figure Description
 
 [back to ToC](#table-of-contents)
@@ -74,6 +81,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 ### Integration<!-- omit in toc -->
 
 ![001](images/icon.png)
+
 **FIGURE X**. Figure Description
 
 [back to ToC](#table-of-contents)
@@ -81,6 +89,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 ### Locations<!-- omit in toc -->
 
 ![001](images/icon.png)
+
 **FIGURE X**. Figure Description
 
 [back to ToC](#table-of-contents)
@@ -88,6 +97,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 ### Apps<!-- omit in toc -->
 
 ![001](images/icon.png)
+
 **FIGURE X**. Figure Description
 
 [back to ToC](#table-of-contents)
@@ -109,6 +119,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 ### Experimental<!-- omit in toc -->
 
 ![001](images/icon.png)
+
 **FIGURE X**. Figure Description
 
 [back to ToC](#table-of-contents)
