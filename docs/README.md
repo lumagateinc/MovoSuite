@@ -135,7 +135,7 @@ Before installing MovoSuite, you should have the following items in place:
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
-### Devices <!-- omit in toc -->
+### Devices<!-- omit in toc -->
 
 *To X, perform the following steps:*
 
