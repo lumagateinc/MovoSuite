@@ -13,7 +13,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
   - [Onboarding](#onboarding)
   - [General](#general)
   - [Email](#email)
-  - [Integration (import/export, bulk admin)](#integration-import-export-bulk-admin)
+  - [Integration (bulk admin)](#integration-import-export-bulk-admin)
   - [Locations](#locations)
   - [Apps](#apps)
   - [Devices](#devices)
@@ -170,7 +170,7 @@ While still in the Email Notifications section, we will generate the Office 365 
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
-### Integration (import/export, bulk admin)<!-- omit in toc -->
+### Integration (bulk admin)<!-- omit in toc -->
 
 The Integration Settings area of the MovoSuite interface includes:\
 
