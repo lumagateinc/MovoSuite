@@ -101,6 +101,45 @@ The Configuration tab includes the settings that will be visible only to MovoSui
 
 **FIGURE X**. Configuration - General
 
+#### Self Service<!-- omit in toc -->
+
+Enable App Catalog Procurement Form
+
+Require Exact Match for Device Lookup
+
+##### Enable RBAC
+
+When you check the Enable RBAC box under **Configuration \> General**, you can then add users to Azure AD roles created out-of-the-box for and by MovoSuite. MovoSuite roles in Azure AD are:
+
+- **Self-Service User**. This user will be able to deploy apps, but will NOT see the **Configuration** tab in MovoSuite.
+- **Administrator**. Users in this role have full permissions in MovoSuite, and see all MovoSuite settings
+
+To add user or group to MovoSuite roles in Azure Active Directory:
+
+![001](images/cfg_gen_rbac.png)
+
+**FIGURE X**. Adding Users or Groups to MovoSuite RBAC Roles
+
+Enable Self-Service Tags and Groups
+
+Enable Field Tech Tags and Groups
+
+User Two Stage Approval
+
+Hide Billing Code
+
+Billing Code Placeholder
+
+Timezone
+
+#### Other<!-- omit in toc -->
+
+#### Admin Group<!-- omit in toc -->
+
+#### Apple App Store Country Code<!-- omit in toc -->
+
+#### Group Name Prefixes<!-- omit in toc --> 
+
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ### Email<!-- omit in toc -->
@@ -237,3 +276,19 @@ Configuration steps for these features are detailed below.
 **FIGURE X**. Experimental Feature Enablement
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+
+### TO-DO<!-- omit in toc -->
+
+*How do we assign a user a catalog specific to their location?*
+e.g. - A catalog for teachers at school X.
+
+*Which tasks do you expect users will be least able or totally unable to do on their own?*
+
+*What if I don't configure RBAC?*
+Just use the Admin group
+
+*Where did Device Name Format go? (General tab)*
+Now on the integration tab, configurable per-location
+
+*Spreadsheet template for the Excel import?*
+Docs have enough guidance on this I think.
