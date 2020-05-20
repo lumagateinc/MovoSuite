@@ -114,7 +114,9 @@ There are three email addresses for backend administrative items. You may use an
 
 #### E-mail Templates <!-- omit in toc -->
 
-There are six email addresses for backend administrative items. You may use an email-enabled group address for any of these notifications. If you select the action you wish to configure shown in Figure X, you will see the default template for that function, which you can then customize, shown in Figure X.
+There are six email addresses for backend administrative items. You may use an email-enabled group address for any of these notifications. Configuring your email templates is a simple 2-step process:
+
+**STEP 1**: Select the action you wish to configure shown in Figure X and described in the list below.
 
 ![001](images/cfg_email_temp_options.png)
 
@@ -127,13 +129,21 @@ There are six email addresses for backend administrative items. You may use an e
 - **Purchase Request Approval**. When a user requests a new app to be purchased and added to their catalog, this message will be sent to the **Procurement Requests** email address.
 - **Purchase Request Completed**. When someone at the **Procurement Requests** email address completes the app purchase and marks the request as complete.
 
-> **Note**: MovoSuite sends a command for each device after approval and initial batch of non-approved apps, rather than waiting for the devices to report back before sending the email. The message is sent only after the last app in the list has been provided.  
+**STEP 2**: The default template for that function you chose will be presented right below the list, as shown in Figure X, Customize the template customize using free text and variables shown at the bottom of the template. Supported variables are:
+
+| Variable | Description  |
+|----------|-----------------------|
+|  %appName  | Display name of the app referenced in the request.   |
+|  %requestId  |  The ID number of the request  |
+|  %requestStatus  | Status the request (e.g. In progress, Complete, Failed)  |
 
 ![001](images/cfg_email_temp.png)
 
 **FIGURE X**. Email Template configuration area
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+
+> **Note**: MovoSuite sends a command for each device after approval and initial batch of non-approved apps, rather than waiting for the devices to report back before sending the email. The message is sent only after the last app in the list has been provided.  
 
 #### Generate the Office 365 Originator ID<!-- omit in toc -->
 
