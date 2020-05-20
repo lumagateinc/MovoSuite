@@ -139,6 +139,29 @@ While still in the Email Notifications section, we will generate the Office 365 
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
+#### E-mail Templates <!-- omit in toc -->
+
+In the Email Template items in the menu, you will see the following email template options:
+
+
+![001](images/cfg_email_temp_options.png)
+
+**FIGURE X**. Email Template configuration area
+
+
+- **Deployment Started**. When an app deployment begins, this message will be sent to the email address of the user requesting deployment.
+- **Deployment Completed**. When the deployment request is complete, this message will be sent to the requesting user.
+
+- **Deployment Approval Request**. When a user requests an app that requires Admin approval, these settings will format the approval request e-mail to the email-enabled group you specify in the Email Notifications section.
+
+> **Note**: MovoSuite sends a command for each device after approval and initial batch of non-approved apps, rather than waiting for the devices to report back before sending the email. The message is sent only after the last app in the list has been provided.  
+
+![001](images/cfg_email_temp.png)
+
+**FIGURE X**. Email Template configuration area
+
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+
 ### Integration<!-- omit in toc -->
 
 *To X, perform the following steps:*
