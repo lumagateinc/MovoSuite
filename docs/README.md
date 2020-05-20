@@ -143,16 +143,18 @@ While still in the Email Notifications section, we will generate the Office 365 
 
 In the Email Template items in the menu, you will see the following email template options:
 
-
 ![001](images/cfg_email_temp_options.png)
 
 **FIGURE X**. Email Template configuration area
 
+If you select the action you wish to configure shown in Figure X, you will see the default template for that function, which you can then customize, shown in Figure X.
 
-- **Deployment Started**. When an app deployment begins, this message will be sent to the email address of the user requesting deployment.
-- **Deployment Completed**. When the deployment request is complete, this message will be sent to the requesting user.
-
+- **App Request Received**. When a user requests an app that requires Admin approval, and clicks **Submit Request**, they will receive a message confirming their request was received.
 - **Deployment Approval Request**. When a user requests an app that requires Admin approval, these settings will format the approval request e-mail to the email-enabled group you specify in the Email Notifications section.
+- **Deployment Completed**. When the deployment request is complete, this message will be sent to the requesting user.
+- **Deployment Started**. When an app deployment begins, this message will be sent to the email address of the user requesting deployment.
+- **Purchase Request Approval**. When a user requests a new app to be purchased and added to their catalog, this message will be sent to the **Procurement Requests** email address.
+- **Purchase Request Completed**. When someone at the **Procurement Requests** email address completes the app purchase and marks the request as complete.
 
 > **Note**: MovoSuite sends a command for each device after approval and initial batch of non-approved apps, rather than waiting for the devices to report back before sending the email. The message is sent only after the last app in the list has been provided.  
 
@@ -163,6 +165,15 @@ In the Email Template items in the menu, you will see the following email templa
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ### Integration<!-- omit in toc -->
+
+The Integration Settings area of the MovoSuite interface includes:\
+
+- **Intune Service Account**. This hosts the service account MovoSuite will use to connect to your Intune instance. 
+- **Naming Standards**. This feature automates naming of shared iPads in Intune using the device naming format you specify.
+- Asset Management. This feature enables ingestion of shared iPad devices directly from service desk, Excel, or SQL data sources.  
+
+Configuration steps for these features are detailed below.
+
 
 *To X, perform the following steps:*
 
@@ -176,7 +187,7 @@ In the Email Template items in the menu, you will see the following email templa
 
 *To X, perform the following steps:*
 
-![001](images/cfg_log_all.png)
+![001](images/cfg_loc_all.png)
 
 **FIGURE X**. Location Group and VPP Configuration
 
