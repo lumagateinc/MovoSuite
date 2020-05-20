@@ -13,7 +13,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
   - [Onboarding](#onboarding)
   - [General](#general)
   - [Email](#email)
-  - [Integration](#integration)
+  - [Integration (import/export, bulk admin)](#integration-import-export-bulk-admin)
   - [Locations](#locations)
   - [Apps](#apps)
   - [Devices](#devices)
@@ -116,7 +116,7 @@ There are three email addresses for backend administrative items. You may use an
 
 There are six email addresses for backend administrative items. You may use an email-enabled group address for any of these notifications. Configuring your email templates is a simple 2-step process:
 
-**STEP 1**: Select the action you wish to configure shown in Figure X and described in the list below.
+**STEP 1: Select the Action**: Select the action for which you wish to configure the e-mail template, shown in Figure X and described in the list below.
 
 ![001](images/cfg_email_temp_options.png)
 
@@ -129,13 +129,15 @@ There are six email addresses for backend administrative items. You may use an e
 - **Purchase Request Approval**. When a user requests a new app to be purchased and added to their catalog, this message will be sent to the **Procurement Requests** email address.
 - **Purchase Request Completed**. When someone at the **Procurement Requests** email address completes the app purchase and marks the request as complete.
 
-**STEP 2**: The default template for that function you chose will be presented right below the list, as shown in Figure X, Customize the template customize using free text and variables shown at the bottom of the template. Supported variables are:
+**STEP 2: Customize the Template**: The default template for that function you chose will be presented right below the list, as shown in Figure X, Customize the template customize using free text and variables shown at the bottom of the template. Supported variables are:
 
 | Variable | Description  |
 |----------|-----------------------|
 |  %appName  | Display name of the app referenced in the request.   |
 |  %requestId  |  The ID number of the request  |
 |  %requestStatus  | Status the request (e.g. In progress, Complete, Failed)  |
+
+**IMPORTANT**: Click **Save** to save your changes to the template you are working with BEFORE choosing another!
 
 ![001](images/cfg_email_temp.png)
 
@@ -168,7 +170,7 @@ While still in the Email Notifications section, we will generate the Office 365 
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
-### Integration<!-- omit in toc -->
+### Integration (import/export, bulk admin)<!-- omit in toc -->
 
 The Integration Settings area of the MovoSuite interface includes:\
 
