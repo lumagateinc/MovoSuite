@@ -109,15 +109,34 @@ The Configuration tab includes the settings that will be visible only to MovoSui
 
 There are three email addresses for backend administrative items. You may use an email-enabled group address for any of these notifications, shown in the figure below.
 
-- **Approval Requests**. For apps requiring approval, an approval request email will be sent to this address.
-- **Procurement Requests**. When a user completes and submits a request for an app to be purchased and added to the catalog, an email will be sent to this address with the request details.
-- **Billing Notifications**. When your subscription renewal comes due, an email will be sent to this address.
-
-![001](images/cfg_email_all.png)
 
 **FIGURE X**. E-mail Notification and Message Format
 
-Generate the Office 365 Originator ID 
+#### E-mail Templates <!-- omit in toc -->
+
+There are six email addresses for backend administrative items. You may use an email-enabled group address for any of these notifications. If you select the action you wish to configure shown in Figure X, you will see the default template for that function, which you can then customize, shown in Figure X.
+
+![001](images/cfg_email_temp_options.png)
+
+**FIGURE X**. Email Template task selection
+
+- **App Request Received**. When a user requests an app that requires Admin approval, and clicks **Submit Request**, they will receive a message confirming their request was received.
+- **Deployment Approval Request**. When a user requests an app that requires Admin approval, these settings will format the approval request e-mail to the email-enabled group you specify in the Email Notifications section.
+- **Deployment Completed**. When the deployment request is complete, this message will be sent to the requesting user.
+- **Deployment Started**. When an app deployment begins, this message will be sent to the email address of the user requesting deployment.
+- **Purchase Request Approval**. When a user requests a new app to be purchased and added to their catalog, this message will be sent to the **Procurement Requests** email address.
+- **Purchase Request Completed**. When someone at the **Procurement Requests** email address completes the app purchase and marks the request as complete.
+
+> **Note**: MovoSuite sends a command for each device after approval and initial batch of non-approved apps, rather than waiting for the devices to report back before sending the email. The message is sent only after the last app in the list has been provided.  
+
+![001](images/cfg_email_temp.png)
+
+**FIGURE X**. Email Template configuration area
+
+[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+
+#### Generate the Office 365 Originator ID<!-- omit in toc -->
+
 While still in the Email Notifications section, we will generate the Office 365 Originator ID. This establishes the foundation for how MovoSuite will send notifications related to app approval and app procurement workflows. 
 
 1. You will click the Create ID button. This will take you to the “Actionable Email Developer Dashboard” screen in the Azure portal where you can generate this ID. You will need the three items listed under the textbox in Figure 17. 
@@ -136,31 +155,6 @@ While still in the Email Notifications section, we will generate the Office 365 
       - Other email addresses: Email addresses of others who should be notified about MovoSuite license renewal. 
       - Comments: “Setting up email notifications from MovoSuite for MS Intune”
 3. At the bottom of the form, check the box labeled “I accept the terms and conditions…” and then click Save.
-
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
-
-#### E-mail Templates <!-- omit in toc -->
-
-In the Email Template items in the menu, you will see the following email template options:
-
-![001](images/cfg_email_temp_options.png)
-
-**FIGURE X**. Email Template configuration area
-
-If you select the action you wish to configure shown in Figure X, you will see the default template for that function, which you can then customize, shown in Figure X.
-
-- **App Request Received**. When a user requests an app that requires Admin approval, and clicks **Submit Request**, they will receive a message confirming their request was received.
-- **Deployment Approval Request**. When a user requests an app that requires Admin approval, these settings will format the approval request e-mail to the email-enabled group you specify in the Email Notifications section.
-- **Deployment Completed**. When the deployment request is complete, this message will be sent to the requesting user.
-- **Deployment Started**. When an app deployment begins, this message will be sent to the email address of the user requesting deployment.
-- **Purchase Request Approval**. When a user requests a new app to be purchased and added to their catalog, this message will be sent to the **Procurement Requests** email address.
-- **Purchase Request Completed**. When someone at the **Procurement Requests** email address completes the app purchase and marks the request as complete.
-
-> **Note**: MovoSuite sends a command for each device after approval and initial batch of non-approved apps, rather than waiting for the devices to report back before sending the email. The message is sent only after the last app in the list has been provided.  
-
-![001](images/cfg_email_temp.png)
-
-**FIGURE X**. Email Template configuration area
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
