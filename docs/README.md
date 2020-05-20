@@ -26,29 +26,26 @@ The following is a high-level implementation checklist for MovoSuite, with links
 
 *To configure MovoSuite, 1) click the task's link, 2) complete the steps, then 3) click the "return to checklist" link to return to this checklist.*
 
-- **Step 1: Complete and verify the prerequisites**. [HERE](#prerequisites)
-- **Step 2: Complete Onboarding Wizard**. Navigate to Configuration, and select the Onboarding tab if not already selected
-- **Step 3: Authorize MovoSuite to query Intune**. As a Directory Admin (Global Admin), click 'Authorize Users' under the Step 1 heading. This authorizes MovoSuite to query Intune apps and devices on behalf of your users.
-- **Step 4: Authorize MovoSuite for automation**. As a Directory Admin (Global Admin), click 'Authorize Automation' under the Step 2 heading. This authorizes MovoSuite to work with Intune and Azure AD in the background.
+- **Step 1: Complete and verify the prerequisites**. Full list of prerequisites [HERE](#prerequisites).
+- **Step 2: Complete Onboarding Wizard**. Step-by-step instructions [HERE](#onboarding).
+- **Step 3: Authorize MovoSuite to query Intune**. [HERE](#) As a Directory Admin (Global Admin), click 'Authorize Users' under the Step 1 heading. This authorizes MovoSuite to query Intune apps and devices on behalf of your users.
+- **Step 4: Authorize MovoSuite for automation**. [HERE](#) As a Directory Admin (Global Admin), click 'Authorize Automation' under the Step 2 heading. This authorizes MovoSuite to work with Intune and Azure AD in the background.
 - Step 5: Navigate to the Email tab in Configuration. Click 'Create Originator ID' under the Actionable Emails field. Create a new Provider ID named 'MovoSuite' using the parameters specified in the Actionable Emails area.
-- **Step 6: Sender email address**. Enter your sender email address in the Sender Address field.The address from which emails are sent.
-- **Step 7: Notification email address**. Enter your notification email addresses in the Notifications area
-- **Step 8: Test MovoSuite Functionality**. Deploy an app to one of your devices.
+- **Step 6: Sender email address**. [HERE](#) Enter your sender email address in the Sender Address field.The address from which emails are sent.
+- **Step 7: Notification email address**. [HERE](#email) Enter your notification email addresses in the Notifications area
+- **Step 8: Test MovoSuite Functionality**. [HERE](#) Deploy an app to one of your devices.
 
 [back to ToC](#table-of-contents)
 
 ## Prerequisites<!-- omit in toc -->
 
-Before configuring MovoSuite, you should have the following features in place.
+Before configuring MovoSuite, you should have the following items in place.
 
-- **Intune with DEP and VPP integrated**. 
-- **Create an Office 365 email account for sending email**. This account only needs an Exchange Online mailbox. It should be a user account mailbox, not a resource mailbox due to limitations in Microsoft Graph today.
-- **Identify an email address for sending notifications/requests to**. This should ideally be an Office 365 Group email address, with members subscribed to emails in order for Actionable (Live) emails to work (shared / resource mailboxes will not render the Actionable emails, and fall back to basic HTML). Alternatively, specify an individual user email address.
-
-Before installing MovoSuite, you should have the following items in place:
+- **#1 - Intune with DEP and VPP integrated**. MovoSuite builds on and enhances native Intune functionality, so you will need Intune deployed integrated with your Apple Device Enrollment Program (DEP) and Volume Purchase Plan (VPP). MovoSuite supports unlimited VPP tokens up to the Intune maximum (currently 256).
+- **#2 Create an Office 365 email account for sending email**. This account only needs an Exchange Online mailbox. It should be a user account mailbox, not a resource mailbox due to limitations in Microsoft Graph today.
+- **#3 Identify an email address for sending notifications/requests to**. Ideally, this should be an **Office 365 Group email address**, with members subscribed to emails in order for Actionable (Live) emails to work. Shared/resource mailboxes will not render the Actionable emails, and fall back to basic HTML). Alternatively, specify an individual user email address.
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
-
 
 ## Home Screen<!-- omit in toc -->
 
@@ -86,9 +83,13 @@ The Configuration tab includes the settings that will be visible only to MovoSui
 
 ### Onboarding<!-- omit in toc -->
 
-*To X, perform the following steps:*
+*To complete the MovoSuite onboarding process, perform the following steps:*
 
-![001](images/cfg_onb_all.png)
+1. Navigate to **Configuration**, and select the **Onboarding** tab.
+2. First, click the **Authorize for Users** button, and when prompted, click **Accept**. This authorizes MovoSuite to query Intune apps and devices on behalf of your users.
+3. Next, click the **Authorize Automation** button, and when prompted, click **Accept**. This authorizes MovoSuite to work with Intune and Azure AD in the background.
+
+![001](images/cfg_onb_auth.png)
 
 **FIGURE X**. Onboarding Wizard
 
@@ -106,9 +107,35 @@ The Configuration tab includes the settings that will be visible only to MovoSui
 
 *To X, perform the following steps:*
 
+There are three email addresses for backend administrative items. You may use an email-enabled group address for any of these notifications, shown in the figure below.
+
+- **Approval Requests**. For apps requiring approval, an approval request email will be sent to this address.
+- **Procurement Requests**. When a user completes and submits a request for an app to be purchased and added to the catalog, an email will be sent to this address with the request details.
+- **Billing Notifications**. When your subscription renewal comes due, an email will be sent to this address.
+
 ![001](images/cfg_email_all.png)
 
 **FIGURE X**. E-mail Notification and Message Format
+
+Generate the Office 365 Originator ID 
+While still in the Email Notifications section, we will generate the Office 365 Originator ID. This establishes the foundation for how MovoSuite will send notifications related to app approval and app procurement workflows. 
+
+1. You will click the Create ID button. This will take you to the “Actionable Email Developer Dashboard” screen in the Azure portal where you can generate this ID. You will need the three items listed under the textbox in Figure 17. 
+
+    ![001](images/cfg_email_origid.png)
+
+    Figure X. The Office 365 Originator ID
+
+2. You will now provide answers to the following items:
+  a. New Provider
+      - Friendly Name: MovoSuite
+      - Sender email address: <static, email-enabled group address>
+      - Provider URL: \<Target URL from Office 365 Originator ID section>
+  b. Scope of submission: Organization
+  c. Additional Information:
+      - Other email addresses: Email addresses of others who should be notified about MovoSuite license renewal. 
+      - Comments: “Setting up email notifications from MovoSuite for MS Intune”
+3. At the bottom of the form, check the box labeled “I accept the terms and conditions…” and then click Save.
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
