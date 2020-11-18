@@ -1,6 +1,6 @@
 ![FAQ Home](images/FAQs.png)
 
-# Resource Scheduler FAQs
+# MovoSuite FAQs
 
 - [Can I add a VM to multiple schedules?](#can-i-add-a-vm-to-multiple-schedules)
 - [How is Resource Scheduler licensed?](#how-is-resource-scheduler-licensed)
