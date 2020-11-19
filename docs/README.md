@@ -151,9 +151,13 @@ The Configuration tab includes the settings that will be visible only to MovoSui
 
 #### Self Service<!-- omit in toc -->
 
-Enable App Catalog Procurement Form
+##### Enable App Catalog Procurement Form 
+ 
+ This option is enabled by default, but can be turned off. It shows or hides the Request App navigation entry.
 
-Require Exact Match for Device Lookup
+##### Require Exact Match for Device Lookup
+
+This option is **deprecated**, and will be removed in the future as it has been replaced by native support for Intune Role Based Access Control (RBAC).
 
 ##### Enable RBAC
 
@@ -168,17 +172,37 @@ To add user or group to MovoSuite roles in Azure Active Directory:
 
 **FIGURE X**. Adding Users or Groups to MovoSuite RBAC Roles
 
-Enable Self-Service Tags and Groups
+##### Enable Self-Service Tags and Groups
 
-Enable Field Tech Tags and Groups
+If enabled, MovoSuite will provision an Intune role named **MovoSuite - Self Service** and associated self-service groups and assignments for each MovoSuite location. The permissions granted in this role are as follows:
+- Managed Apps (Read and Assign)
+- Mobile Apps (Read and Assign)
+- Managed Devices (Read)
+- Remote Tasks (Sync devices)
 
-User Two Stage Approval
+##### Enable Field Tech Tags and Groups
 
-Hide Billing Code
+If enabled, MovoSuite will provision an Intune role named **MovoSuite - Field Tech** and associated field tech groups and assignments for each MovoSuite location. The permissions granted in this role are as follows:
+- Managed Apps (Read and Assign)
+- Mobile Apps (Read and Assign)
+- Managed Devices (Read)
+- Remote Tasks (Sync devices)
 
-Billing Code Placeholder
+##### Use Two Stage Approval
 
-Timezone
+If enabled, MovoSuite will send a second email to the global email address registered for deployment or purchase requests if a delegated approver (e.g. school principal) has approved the request.
+
+##### Hide Billing Code
+
+If enabled, MovoSuite will not show the billing code field in forms.
+
+##### Billing Code Placeholder
+
+Change the placeholder text for billing code fields to guide your users.
+
+##### Timezone
+
+Configure the site-wide timezone. This is used when rendering times in emails, request history, and event logs.
 
 #### Other<!-- omit in toc -->
 
