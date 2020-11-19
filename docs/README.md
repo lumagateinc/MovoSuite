@@ -61,7 +61,7 @@ Before configuring MovoSuite, you should have the following items in place.
 
 ## Request Deployment<!-- omit in toc -->
 
-*To X, perform the following steps:*
+*To request deployment of one more apps to one more devices, perform the following steps:*
 
 1. Navigate to **Request Deployment**.
 ![001](images/req_dep_all.png)
@@ -91,17 +91,35 @@ Before configuring MovoSuite, you should have the following items in place.
 
 **FIGURE X**. Completed Deployment Form
 
-11. **Submit** your form.
+11. Click **Submit** to submit the form and be redirected to the home page. The request list will be updated to add your latest request.
+12. At this point you will receive an acknowledgement email that your request has been received and is being processed. As the request is processed, if your administrator has enabled the Actionable email functionality, and you are using a current version of Outlook (desktop or mobile), the email will automatically update with the latest status every time you view it.
+13. Once the request is fully processed (all apps have been approved / declined if any required approval), you will receive an email notification that the request is completed. Your apps should show up within about 20 minutes of the final notification, if not earlier.
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
 ## Request App<!-- omit in toc -->
 
-*To X, perform the following steps:*
+*To request your administrator procure an application license from Apple for deployment to devices, perform the following steps:*
 
+1. Navigate to **Request App**.
 ![001](images/req_app_all.png)
 
 **FIGURE X**. New App Request Form
+
+2. Using the search engine of your choice, find the Apple App Store URL for the iOS app you wish to deploy. Paste the URL into the URL field of the form.
+![001](images/req_app_search_link.png)
+
+**FIGURE X**. Apple App Store URL via search link
+
+3. Choose the number of licenses you want your administrator to procure.
+4. Enter information in the **Billing Code** field if it is visible and required (this field can be hidden by the administrator).
+5. Enter any additional comments in the **Comments** field as to why you want to purchase these apps.
+![001](images/req_app_all_filled.png)
+
+**FIGURE X**. Completed Request App form
+
+6. Click **Submit** to submit your request.
+7. At this point you will receive an acknowledgement email that your request has been received.
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
