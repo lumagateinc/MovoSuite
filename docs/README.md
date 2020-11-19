@@ -236,9 +236,9 @@ Configuring your email templates is a simple 2-step process:
 
 #### Generate the Office 365 Originator ID<!-- omit in toc -->
 
-While still in the Email Notifications section, we will generate the Office 365 Originator ID. This establishes the foundation for how MovoSuite will send notifications related to app approval and app procurement workflows. 
+While still in the Email configuration area, we will generate the Office 365 Provider (Originator) ID. This establishes a trust foundation for Outlook to fetch the latest information for the email from MovoSuite for notifications related to app approval and app procurement workflows. 
 
-1. You will click the Create ID button. This will take you to the "Actionable Email Developer Dashboard" screen in the Azure portal where you can generate this ID. You will need the three items listed under the textbox in Figure 17. 
+1. You will click the Create ID button. This will take you to the [**Actionable Email Developer Dashboard**](https://outlook.office.com/connectors/oam/publish) where you can generate this ID. You will need the three items listed under the textbox in Figure 17. 
 
     ![001](images/cfg_email_origid.png)
 
@@ -258,6 +258,8 @@ While still in the Email Notifications section, we will generate the Office 365 
       - Comments: "Email notifications from MovoSuite for Intune"
 
 3. At the bottom of the form, check the box labeled "I accept the terms and conditions…" and then click Save.
+4. Once you have generated the ID, an email notification will be sent to the Exchange administrators of your organizations to approve. If you are a Global Administrator or Exchange Administrator, you can approve the pending ID from the admin view of the **Actionable Email Developer Dashboard** [here](https://https://outlook.office.com/connectors/oam/admin).
+5. Save the **Provider ID (originator)** from the **Actionable Email Developer Dashboard** into MovoSuite, and save the change.
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
