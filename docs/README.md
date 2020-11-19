@@ -27,13 +27,13 @@ The following is a high-level implementation checklist for MovoSuite, with links
 *To configure MovoSuite, 1) click the task's link, 2) complete the steps, then 3) click the "return to checklist" link to return to this checklist.*
 
 - **Step 1: Complete and verify the prerequisites**. Full list of prerequisites [HERE](#prerequisites).
-- **Step 2: Complete Onboarding Wizard**. Step-by-step instructions [HERE](#onboarding).
-- **Step 3: Authorize MovoSuite to query Intune**. [HERE](#) As a Directory Admin (Global Admin), click 'Authorize Users' under the Step 1 heading. This authorizes MovoSuite to query Intune apps and devices on behalf of your users.
-- **Step 4: Authorize MovoSuite for automation**. [HERE](#) As a Directory Admin (Global Admin), click 'Authorize Automation' under the Step 2 heading. This authorizes MovoSuite to work with Intune and Azure AD in the background.
-- Step 5: Navigate to the Email tab in Configuration. Click 'Create Originator ID' under the Actionable Emails field. Create a new Provider ID named 'MovoSuite' using the parameters specified in the Actionable Emails area.
-- **Step 6: Sender email address**. [HERE](#) Enter your sender email address in the Sender Address field.The address from which emails are sent.
-- **Step 7: Notification email address**. [HERE](#email) Enter your notification email addresses in the Notifications area
-- **Step 8: Test MovoSuite Functionality**. [HERE](#) Deploy an app to one of your devices.
+- **Step 2: Complete the Onboarding Wizard**. Step-by-step instructions [HERE](#onboarding).
+- **Step 3: Authorize MovoSuite to query Intune on behalf of your users**. [HERE](#) As a Directory Admin (Global Admin), click 'Authorize Users' under the Step 1 heading. This authorizes MovoSuite to query Intune apps and devices on behalf of your users.
+- **Step 4: Authorize MovoSuite to process requests, send notifications, automate app group assignments, and update app and device lists from Intune**. [HERE](#) As a Directory Admin (Global Admin), click 'Authorize Automation' under the Step 2 heading. This authorizes MovoSuite to work with Intune via Microsoft Graph in the background.
+- **Step 5: Configure Actionable (live) emails**. Navigate to the Email tab in configuration, and click 'Create Originator ID' under the Actionable Emails section. Create a new Provider ID named 'MovoSuite' using the details specified in the Actionable Emails area.
+- **Step 6: Configure sender email address**. [HERE](#) Enter your sender email address in the Sender Address field.The address from which emails are sent.
+- **Step 7: Configure notification email addresses**. [HERE](#email) Enter your notification email addresses in the Notifications area
+- **Step 8: Test MovoSuite Functionality**. [HERE](#) Try deploying an app to one of your devices, and test the purchase form.
 
 [back to ToC](#table-of-contents)
 
