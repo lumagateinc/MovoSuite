@@ -245,6 +245,7 @@ While still in the Email Notifications section, we will generate the Office 365 
     Figure X. The Office 365 Originator ID
 
 2. You will now provide answers to the following items:
+
    2.1. New Provider
       - Friendly Name: MovoSuite
       - Sender email address: <static, email-enabled group address>
