@@ -194,7 +194,7 @@ There are six email addresses for backend administrative items. You may use an e
 
 While still in the Email Notifications section, we will generate the Office 365 Originator ID. This establishes the foundation for how MovoSuite will send notifications related to app approval and app procurement workflows. 
 
-1. You will click the Create ID button. This will take you to the “Actionable Email Developer Dashboard” screen in the Azure portal where you can generate this ID. You will need the three items listed under the textbox in Figure 17. 
+1. You will click the Create ID button. This will take you to the "Actionable Email Developer Dashboard" screen in the Azure portal where you can generate this ID. You will need the three items listed under the textbox in Figure 17. 
 
     ![001](images/cfg_email_origid.png)
 
@@ -208,8 +208,8 @@ While still in the Email Notifications section, we will generate the Office 365 
   b. Scope of submission: Organization
   c. Additional Information:
       - Other email addresses: Email addresses of others who should be notified about MovoSuite license renewal. 
-      - Comments: “Setting up email notifications from MovoSuite for MS Intune”
-3. At the bottom of the form, check the box labeled “I accept the terms and conditions…” and then click Save.
+      - Comments: "Setting up email notifications from MovoSuite for MS Intune"
+3. At the bottom of the form, check the box labeled "I accept the terms and conditions…" and then click Save.
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
