@@ -248,8 +248,8 @@ While still in the Email Notifications section, we will generate the Office 365 
 
    2.1. **New Provider**:
       - Friendly Name: MovoSuite
-      - Sender email address: _**unchangeable, the sender email address from Office 365 Originator ID section**_
-      - Provider URL: _**target URL from Office 365 Originator ID section**_
+      - Sender email address: _**the sender email address from Actionable Emails section (unchangeable)**_
+      - Provider URL: _**target URL from Actionable Emails section**_
 
    2.2. **Scope of submission**: Organization
 
