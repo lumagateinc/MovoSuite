@@ -247,11 +247,15 @@ While still in the Email Notifications section, we will generate the Office 365 
 2. You will now provide answers to the following items:
 
   2.1. New Provider
+
     - Friendly Name: MovoSuite
     - Sender email address: <static, email-enabled group address>
     - Provider URL: \<Target URL from Office 365 Originator ID section>
+
   2.2. Scope of submission: Organization
+
   2.3. Additional Information:
+  
     - Other email addresses: Email addresses of others who should be notified about MovoSuite license renewal. 
     - Comments: "Setting up email notifications from MovoSuite for MS Intune"
 
