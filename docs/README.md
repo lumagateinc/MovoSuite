@@ -247,6 +247,34 @@ There are three email addresses for backend administrative items. You may use an
 
 **FIGURE X**. E-mail Notification and Message Format
 
+#### Webhook Notifications<!-- omit in toc -->
+
+You can configure notification of approval requests (deployment or purchase) to Microsoft Teams via webhook. These notifications are actionable, which means you can approve or decline the approval request right within your Teams channel!
+
+To configure actionable webhook notifications:
+
+1. Open Microsoft Teams and select the team you would like to receive notifications.
+2. Click the ellipsis (...) next to the team name and select **Manage team**.
+3. Select the **Apps** tab.
+4. If you do not see webhooks in the list, click the **More apps** button.
+5. In the search box , type 'webhook'. From the search results, select 'Incoming Webhook' and click the **Add to a team** button.
+6. On the 'Setup an incoming Webhook...', click the **Setup a connector** button.
+7. On the Incoming Webhook screen, click **Create**. Then, copy the URL, as shown in the figure below.
+
+![001](images/webhook_url.png)
+
+**FIGURE X**. Webhook URL in Teams
+
+8. To complete the configuration, go back to the **Configuration > Email** tab of the Resource Scheduler.
+9. Paste the URL from step 7 into one or both fields provided in the 'Webhook Notifications' area.
+10. Click the **Save** button at the bottom of the screen to save your changes.
+
+![001](images/cfg_webhook_notif.png)
+
+**FIGURE X**. Webhook Notifications configuration
+
+[back to ToC](#table-of-contents)
+
 #### E-mail Templates <!-- omit in toc -->
 
 Configuring your email templates is a simple 2-step process:
