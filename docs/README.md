@@ -204,7 +204,6 @@ There are two approaches to managing administrator access in MovoSuite:
 - Administrator **group assignment**
 
 The preferred way to manage administrator access in MovoSuite is via Azure AD **role assignment**. MovoSuite roles in Azure AD are:
-
 - **Self-Service User**. This user will be able to deploy apps, but will NOT see the **Configuration** tab in MovoSuite.
 - **Administrator**. Users in this role have full permissions in MovoSuite, and see all MovoSuite settings
 
