@@ -225,9 +225,15 @@ The App Store country code selection is used to specify the locale for fetching 
 
 ### Notifications<!-- omit in toc -->
 
-*To configuration notifications, perform the following steps:*
+*To configure notifications, perform the following steps:*
+1. Configure Sender Email Address
+2. Configure Approval Recipient Email addresses
+3. Configure Office 365 Originator ID
+4. **Optional**: Configure Webhook Notifications For Microsoft Teams
 
 #### Notifications Sender Email<!-- omit in toc -->
+
+Configure the Sender Email address field with the email address of a User Mailbox or Shared Mailbox existing in Exchange Online. Office 365 Group Mailboxes cannot be used for the sender address.
 
 #### Notifications Recipient Emails<!-- omit in toc -->
 
@@ -305,7 +311,7 @@ The Integration Settings area of the MovoSuite interface includes:\
 
 - **Intune Service Account**. This hosts the service account MovoSuite will use to connect to your Intune instance. 
 - **Naming Standards**. This feature automates naming of shared iPads in Intune using the device naming format you specify.
-- Asset Management. This feature enables ingestion of shared iPad devices directly from service desk, Excel, or SQL data sources.  
+- **Asset Management**. This feature enables ingestion of shared iPad devices directly from service desk, Excel, or SQL data sources.  
 
 Configuration steps for these features are detailed below.
 
