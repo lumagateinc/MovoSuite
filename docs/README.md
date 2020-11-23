@@ -32,7 +32,7 @@ The following is a high-level implementation checklist for MovoSuite, with links
 - **Step 4: Authorize MovoSuite to process requests, send notifications, automate app group assignments, and update app and device lists from Intune**. [HERE](#onboarding) As a Directory Admin (Global Admin), click 'Authorize Automation' under the Step 2 heading. This authorizes MovoSuite to work with Intune via Microsoft Graph in the background. You may be prompted to grant MovoSuite to access your directory as you to perform this step.
 - **Step 5: Configure sender email address**. [HERE](#notifications) Enter your sender email address in the Sender Address field.The address from which emails are sent.
 - **Step 6: Configure notification email addresses**. [HERE](#notifications) Enter your notification email addresses in the Notifications area
-- **Step 7: Configure Actionable (live) emails**. [HERE](#generate-the-office-365-originator-id) Navigate to the Email tab in configuration, and click 'Create Originator ID' under the Actionable Emails section. Create a new Provider ID named 'MovoSuite' using the details specified in the Actionable Emails area.
+- **Step 7: Configure Actionable (live) emails**. [HERE](#generate-the-office-365-originator-id) Navigate to the Email tab in configuration, and click 'Create Provider ID' under the Actionable Emails section. Create a new Provider ID named 'MovoSuite' using the details specified in the Actionable Emails area.
 - **Step 8: Test MovoSuite Functionality**. [HERE](#) Try deploying an app to one of your devices, and test the purchase form.
 
 [back to ToC](#table-of-contents)
@@ -42,9 +42,9 @@ The following is a high-level implementation checklist for MovoSuite, with links
 Before configuring MovoSuite, you should have the following items in place.
 
 - **#1 - Contributor rights to an Azure subscription or Resource Group**. Have at least Contributor rights to an Azure subscription or Resource Group within the subscription.
-- **#2 - Have access to a Global Administrator account**. The Global Administrator account is used for authorizing MovoSuite to perform deployment and notification actions, as well as approving Office 365 Provider ID (also known as Originator ID). If you do not have access to a Global Administrator account, you will need access to accounts with at least:
+- **#2 - Have access to a Global Administrator account**. The Global Administrator account is used for authorizing MovoSuite to perform deployment and notification actions, as well as approving Office 365 Provider ID (also known as Provider ID). If you do not have access to a Global Administrator account, you will need access to accounts with at least:
   - The ability to consent to an application for delegated and application permissions. [See here](https://docs.microsoft.com/en-us/azure/active-directory/roles/custom-consent-permissions) for more information on creating a custom role to do this.
-  - Exchange Administrator role for approving the Provider / Originator ID.
+  - Exchange Administrator role for approving the Provider / Provider ID.
 - **#3 - Intune with DEP and VPP integrated**. MovoSuite builds on and enhances native Intune functionality, so you will need Intune deployed integrated with your Apple Device Enrollment Program (DEP) and Volume Purchase Plan (VPP). MovoSuite supports unlimited VPP tokens up to the Intune maximum.
 - **#4 - Create an Exchange Online mailbox for sending email notifications**. This should be a User Mailbox (requires an account with an Exchange Online license) or a Shared Mailbox (no license required), but cannot be an Office 365 Group mailbox due to limitations in Microsoft Graph today.
 - **#5 - Identify an email address for receiving notifications/requests**. Ideally, this should be an **Office 365 Group**, with members subscribed to emails in order for Actionable (live) emails to work. Shared/resource mailboxes will not render the Actionable emails, and fall back to basic HTML). Alternatively, specify an individual user email address.
@@ -161,7 +161,7 @@ This option is **deprecated**, and will be removed in the future as it has been 
 
 ##### Enable RBAC
 
-When you check the Enable RBAC box under **Configuration \> General**, MovoSuite filters the apps and devices shown to users in the self-service areas based on their permissions in Intune.
+When you check the Enable RBAC box under **Configuration \> General**, MovoSuite filters the apps and devices shown to users in the self-service areas based on their permissions in Intune. You should enable Self-Service Tags and Groups if enabling this option, so that MovoSuite can create Scope Tags for each location, and groups for granting assignment.
 
 ##### Enable Self-Service Tags and Groups
 
@@ -228,16 +228,22 @@ The App Store country code selection is used to specify the locale for fetching 
 *To configure notifications, perform the following steps:*
 1. Configure Sender Email Address
 2. Configure Approval Recipient Email addresses
-3. Configure Office 365 Originator ID
+3. Configure Office 365 Provider ID
 4. **Optional**: Configure Webhook Notifications For Microsoft Teams
 
 #### Notifications Sender Email<!-- omit in toc -->
 
 Configure the Sender Email address field with the email address of a User Mailbox or Shared Mailbox existing in Exchange Online. Office 365 Group Mailboxes cannot be used for the sender address.
 
+![001](images/cfg_email_send.png) 
+
+**FIGURE X**. Sender Email Address
+
 #### Notifications Recipient Emails<!-- omit in toc -->
 
 There are three email addresses for backend administrative items. You may use an email-enabled group address for any of these notifications, shown in the figure below.
+
+![001](images/cfg_email_notif.png) 
 
 **FIGURE X**. E-mail Notification and Message Format
 
@@ -276,15 +282,15 @@ Configuring your email templates is a simple 2-step process:
 
 > **Note**: MovoSuite sends a command for each device after approval and initial batch of non-approved apps, rather than waiting for the devices to report back before sending the email. The message is sent only after the last app in the list has been provided.  
 
-#### Generate the Office 365 Originator ID<!-- omit in toc -->
+#### Generate the Office 365 Provider ID<!-- omit in toc -->
 
 While still in the Email configuration area, we will generate the Office 365 Provider (Originator) ID. This establishes a trust foundation for Outlook to fetch the latest information for the email from MovoSuite for notifications related to app approval and app procurement workflows. 
 
-1. You will click the **Create Originator ID** button. This will take you to the [**Actionable Email Developer Dashboard**](https://outlook.office.com/connectors/oam/publish) where you can generate this ID. You will need the three items listed under the textbox in Figure 17. 
+1. You will click the **Create Provider ID** button. This will take you to the [**Actionable Email Developer Dashboard**](https://outlook.office.com/connectors/oam/publish) where you can generate this ID. You will need the three items listed under the textbox in Figure 17. 
 
     ![001](images/cfg_email_origid.png)
 
-    Figure X. The Office 365 Originator ID
+    Figure X. The Office 365 Provider ID
 
 2. You will now provide answers to the following items:
 
