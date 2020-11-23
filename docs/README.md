@@ -265,7 +265,7 @@ To configure actionable webhook notifications:
 
 **FIGURE X**. Webhook URL in Teams
 
-8. To complete the configuration, go back to the **Configuration > Email** tab of the Resource Scheduler.
+8. To complete the configuration, go back to the **Configuration > Email** tab of MovoSuite.
 9. Paste the URL from step 7 into one or both fields provided in the 'Webhook Notifications' area.
 10. Click the **Save** button at the bottom of the screen to save your changes.
 
