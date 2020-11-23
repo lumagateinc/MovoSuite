@@ -379,7 +379,7 @@ Clicking the Expand button on an app in the Apps list will show the install and 
 
 ![001](images/cfg_app_all.png)
 
-**FIGURE X**. App Settings Configuration
+**FIGURE X**. App List
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
@@ -392,7 +392,8 @@ Clicking the Expand button on a device in the Devices list will show you additio
 To export the Devices list to Excel, click Export above the scroll bar on the right.
 
 ![001](images/cfg_dev_all.png)
-**FIGURE X**. Device Location Assignment
+
+**FIGURE X**. Device List
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
