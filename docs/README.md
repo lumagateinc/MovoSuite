@@ -200,10 +200,10 @@ Configure the site-wide timezone. This is used when rendering times in emails, r
 #### Admin Group<!-- omit in toc -->
 
 There are two approaches to managing administrator access in MovoSuite:
-- Azure AD Role assignment
-- Administrator Group assignment
+- Azure AD **role assignment**
+- Administrator **group assignment**
 
-The preferred way to manage administrator access in MovoSuite is via Azure AD roles. You can add users to MovoSuite roles in Azure AD. MovoSuite roles in Azure AD are:
+The preferred way to manage administrator access in MovoSuite is via Azure AD **role assignment**. MovoSuite roles in Azure AD are:
 
 - **Self-Service User**. This user will be able to deploy apps, but will NOT see the **Configuration** tab in MovoSuite.
 - **Administrator**. Users in this role have full permissions in MovoSuite, and see all MovoSuite settings
