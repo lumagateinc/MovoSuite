@@ -161,16 +161,7 @@ This option is **deprecated**, and will be removed in the future as it has been 
 
 ##### Enable RBAC
 
-When you check the Enable RBAC box under **Configuration \> General**, you can then add users to Azure AD roles created out-of-the-box for and by MovoSuite. MovoSuite roles in Azure AD are:
-
-- **Self-Service User**. This user will be able to deploy apps, but will NOT see the **Configuration** tab in MovoSuite.
-- **Administrator**. Users in this role have full permissions in MovoSuite, and see all MovoSuite settings
-
-To add user or group to MovoSuite roles in Azure Active Directory:
-
-![001](images/cfg_gen_rbac.png)
-
-**FIGURE X**. Adding Users or Groups to MovoSuite RBAC Roles
+When you check the Enable RBAC box under **Configuration \> General**, MovoSuite filters the apps and devices shown to users in the self-service areas based on their permissions in Intune.
 
 ##### Enable Self-Service Tags and Groups
 
@@ -208,7 +199,26 @@ Configure the site-wide timezone. This is used when rendering times in emails, r
 
 #### Admin Group<!-- omit in toc -->
 
+There are two approaches to managing administrator access in MovoSuite:
+- Azure AD Role assignment
+- Administrator Group assignment
+
+The preferred way to manage administrator access in MovoSuite is via Azure AD roles. You can add users to MovoSuite roles in Azure AD. MovoSuite roles in Azure AD are:
+
+- **Self-Service User**. This user will be able to deploy apps, but will NOT see the **Configuration** tab in MovoSuite.
+- **Administrator**. Users in this role have full permissions in MovoSuite, and see all MovoSuite settings
+
+To add user or group to MovoSuite roles in Azure Active Directory:
+
+![001](images/cfg_gen_rbac.png)
+
+**FIGURE X**. Adding Users or Groups to MovoSuite RBAC Roles
+
+If not using MovoSuite Azure AD roles, you can choose to use **Administrator Group** assignment. Create a group for your MovoSuite administrators, and then select the group from the dropdown under **Admin Group**.
+
 #### Apple App Store Country Code<!-- omit in toc -->
+
+The App Store country code selection is used to specify the locale for fetching app metadata. It defaults to CA (Canada).
 
 #### Group Name Prefixes<!-- omit in toc --> 
 
