@@ -345,7 +345,7 @@ The Integration Settings area of the MovoSuite interface includes:
 
 - **Asset Integration**. This feature enables ingestion of additional information (such as asset tag numbers for matching serial numbers) for shared iPad devices directly from service desk or Excel data sources.  
 - **Naming Authority**. This feature enables automated naming of shared iPads in Intune using the device naming format you specify under **Naming Conventions**.
-- **Naming Conventions**. This feature enables customization of the naming of shared iPads in Intune, including location short codes or asset tag numbers. The naming conventions are defined on a per DEP profile or per AutoPilot profile basis, with support for variables for the short code for the device **location**, **asset tag** (if the device asset tag fields are populated), or **serial number**. 
+- **Naming Conventions**. This feature enables customization of the naming of shared iPads in Intune, including location short codes or asset tag numbers. The naming conventions are defined on a per DEP profile or per AutoPilot profile basis, with support for variables for the short code for the device **location**, **asset tag** (if the device asset tag fields are populated), or **serial number**. If naming conventions are defined with a location variable, MovoSuite will attempt to extract the location code from device name for devices that aren't already assigned to a location.
 
 ![001](images/cfg_int_all.png)
 
@@ -355,7 +355,12 @@ The Integration Settings area of the MovoSuite interface includes:
 
 ### Locations<!-- omit in toc -->
 
-*To X, perform the following steps:*
+Locations in MovoSuite underpin much of the automation, supporting device naming and role based access. Specifically, creating a location services to:
+- provision an Intune scope tag with the short code for the location
+- provision an **assigned** self-service group for the location, named based on the short code (defaults to _Z-SG-**SHORTCODE**-Self Service Users_)
+- provision a **dynamic** device group for the location, named based on the short code (defaults to _Z-DG-**SHORTCODE**-All iOS Devices_) and matching devices who's name starts with the short code
+
+Additionally, a delegated approver for deployment and purchasing can be defined per location. This enables approval requests to be routed to someone like a principal at a school for first pass, and then routed to the MovoSuite globally defined approvers.
 
 ![001](images/cfg_loc_all.png)
 
