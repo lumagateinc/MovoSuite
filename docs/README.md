@@ -341,14 +341,13 @@ While still in the Email configuration area, we will generate the Office 365 Pro
 
 ### Integration (bulk admin)<!-- omit in toc -->
 
-The Integration Settings area of the MovoSuite interface includes:\
+The Integration Settings area of the MovoSuite interface includes:
 
-- **Intune Service Account**. This hosts the service account MovoSuite will use to connect to your Intune instance. 
-- **Naming Standards**. This feature automates naming of shared iPads in Intune using the device naming format you specify.
-- **Asset Management**. This feature enables ingestion of shared iPad devices directly from service desk, Excel, or SQL data sources.  
+- **Asset Integration**. This feature enables ingestion of additional information (such as asset tag numbers for matching serial numbers) for shared iPad devices directly from service desk or Excel data sources.  
+- **Naming Authority**. This feature enables automated naming of shared iPads in Intune using the device naming format you specify under **Naming Conventions**.
+- **Naming Conventions**. This feature enables customization of the naming of shared iPads in Intune, including location short codes or asset tag numbers.
 
 Configuration steps for these features are detailed below.
-
 
 *To X, perform the following steps:*
 
