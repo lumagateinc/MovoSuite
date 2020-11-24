@@ -399,11 +399,11 @@ To export the Devices list to Excel, click Export above the scroll bar on the ri
 
 ### Requests<!-- omit in toc -->
 
-*To X, perform the following steps:*
+The Requests area in MovoSuite configuration allows you to view submitted requests and their details, as well as initiate reprocessing of a request in the event one appears stalled. To view details, click the round **i** button on a request. To reprocess the request, click the circular arrow on the request.
 
 ![001](images/cfg_req_all.png)
 
-**FIGURE X**. Deployment Request History
+**FIGURE X**. Deployment Request List
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
