@@ -1,0 +1,16 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+img {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 1px;
+    margin: 2px 0 2px 0;
+  }
+
+p img {
+    display: inline-block;
+    vertical-align: bottom;
+  }
