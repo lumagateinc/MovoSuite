@@ -409,26 +409,15 @@ The Requests area in MovoSuite configuration allows you to view submitted reques
 
 ### Experimental<!-- omit in toc -->
 
-*To X, perform the following steps:*
+The Experimental area in MovoSuite configuration allows you to enable features that are in preview for customers. These features generally are still undergoing testing and validation with customers, so enable at your own risk.
 
 ![001](images/cfg_exp_all.png)
 
-**FIGURE X**. Experimental Feature Enablement
+**FIGURE X**. Experimental Features Page
 
 [back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
 
-### TO-DO<!-- omit in toc -->
-
-*How do we assign a user a catalog specific to their location?*
-e.g. - A catalog for teachers at school X.
-
-*Which tasks do you expect users will be least able or totally unable to do on their own?*
+### FAQ<!-- omit in toc -->
 
 *What if I don't configure RBAC?*
-Just use the Admin group
-
-*Where did Device Name Format go? (General tab)*
-Now on the integration tab, configurable per-location
-
-*Spreadsheet template for the Excel import?*
-Docs have enough guidance on this I think.
+Your teachers can view all apps and all devices.
