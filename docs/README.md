@@ -49,7 +49,7 @@ Before configuring MovoSuite, you should have the following items in place.
 - **#4 - Create an Exchange Online mailbox for sending email notifications**. This should be a User Mailbox (requires an account with an Exchange Online license) or a Shared Mailbox (no license required), but cannot be an Office 365 Group mailbox due to limitations in Microsoft Graph today.
 - **#5 - Identify an email address for receiving notifications/requests**. Ideally, this should be an **Office 365 Group**, with members subscribed to emails in order for Actionable (live) emails to work. Shared/resource mailboxes will not render the Actionable emails, and fall back to basic HTML). Alternatively, specify an individual user email address.
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ## Home Screen<!-- omit in toc -->
 
@@ -95,7 +95,7 @@ Before configuring MovoSuite, you should have the following items in place.
 12. At this point you will receive an acknowledgement email that your request has been received and is being processed. As the request is processed, if your administrator has enabled the Actionable email functionality, and you are using a current version of Outlook (desktop or mobile), the email will automatically update with the latest status every time you view it.
 13. Once the request is fully processed (all apps have been approved / declined if any required approval), you will receive an email notification that the request is completed. Your apps should show up within about 20 minutes of the final notification, if not earlier.
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ## Request App<!-- omit in toc -->
 
@@ -121,13 +121,13 @@ Before configuring MovoSuite, you should have the following items in place.
 6. Click **Submit** to submit your request.
 7. At this point you will receive an acknowledgement email that your request has been received.
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ## Configuration<!-- omit in toc -->
 
 The Configuration tab includes the settings that will be visible only to MovoSuite administrators, generally the same person responsible for Intune configuration in your environment. 
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### Onboarding<!-- omit in toc -->
 
@@ -141,7 +141,7 @@ The Configuration tab includes the settings that will be visible only to MovoSui
 
 **FIGURE X**. Onboarding Wizard
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### General<!-- omit in toc -->
 
@@ -221,7 +221,7 @@ The App Store country code selection is used to specify the locale for fetching 
 
 #### Group Name Prefixes<!-- omit in toc --> 
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### Notifications<!-- omit in toc -->
 
@@ -306,7 +306,7 @@ Configuring your email templates is a simple 2-step process:
 
 **FIGURE X**. Email Template configuration area
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 > **Note**: MovoSuite sends a command for each device after approval and initial batch of non-approved apps, rather than waiting for the devices to report back before sending the email. The message is sent only after the last app in the list has been provided.  
 
@@ -337,7 +337,7 @@ While still in the Email configuration area, we will generate the Office 365 Pro
 4. Once you have generated the ID, an email notification will be sent to the Exchange administrators of your organizations to approve. If you are a Global Administrator or Exchange Administrator, you can approve the pending ID from the admin view of the **Actionable Email Developer Dashboard** [here](https://https://outlook.office.com/connectors/oam/admin).
 5. Save the **Provider ID (originator)** from the **Actionable Email Developer Dashboard** into MovoSuite, and save the change.
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### Integration (bulk admin)<!-- omit in toc -->
 
@@ -351,7 +351,7 @@ The Integration Settings area of the MovoSuite interface includes:
 
 **FIGURE X**. Asset Integration and Data Ingestion
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### Locations<!-- omit in toc -->
 
@@ -367,7 +367,7 @@ Additionally, a delegated approver for deployment and purchasing can be defined 
 
 **FIGURE X**. Location Details list
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### Apps<!-- omit in toc -->
 
@@ -381,7 +381,7 @@ Clicking the Expand button on an app in the Apps list will show the install and 
 
 **FIGURE X**. App List
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### Devices<!-- omit in toc -->
 
@@ -395,7 +395,7 @@ To export the Devices list to Excel, click Export above the scroll bar on the ri
 
 **FIGURE X**. Device List
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### Requests<!-- omit in toc -->
 
@@ -405,7 +405,7 @@ The Requests area in MovoSuite configuration allows you to view submitted reques
 
 **FIGURE X**. Deployment Request List
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### Experimental<!-- omit in toc -->
 
@@ -415,7 +415,7 @@ The Experimental area in MovoSuite configuration allows you to enable features t
 
 **FIGURE X**. Experimental Features Page
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### FAQ<!-- omit in toc -->
 
