@@ -57,7 +57,7 @@ Before configuring MovoSuite, you should have the following items in place.
 
 **FIGURE X**. MovoSuite Home
 
-[back to ToC](#table-of-contents) | [back to checklist](#install-and-configuration-checklist)
+[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ## Request Deployment<!-- omit in toc -->
 
