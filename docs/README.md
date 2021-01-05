@@ -55,7 +55,7 @@ Before configuring MovoSuite, you should have the following items in place.
 
 ![001](images/home_all.png)
 
-**FIGURE X**. MovoSuite Home
+**FIGURE 1**. MovoSuite Home
 
 [back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
@@ -64,22 +64,22 @@ Before configuring MovoSuite, you should have the following items in place.
 *To request deployment of one more apps to one more devices, perform the following steps:*
 
 1. Navigate to **Request Deployment**.
-![001](images/req_dep_all.png)
+![002](images/req_dep_all.png)
 
-**FIGURE X**. Deployment Request UI
+**FIGURE 2**. Deployment Request UI
 
 2. Click the **Choose Apps** button.
 3. In the modal dialog that pops up, under **Available Apps** click the **+** button next to the app(s) that you wish to deploy. This moves them across to the **Selected Apps** field. Note the indicators for whether an app requires deployment approval or billing code.
-![001](images/req_dep_apps.png)
+![003](images/req_dep_apps.png)
 
-**FIGURE X**. Choose Apps Modal
+**FIGURE 3**. Choose Apps Modal
 
 3. Click **Save** to save your selection and go back to the main form.
 4. Click the **Choose Devices** button.
 5. In the modal dialog that pops up, under **Available Devices** click the **+** button next to the device(s) to which you wish to deploy your apps. This moves them across to the **Selected Devices** field.
-![001](images/req_dep_devices.png)
+![004](images/req_dep_devices.png)
 
-**FIGURE X**. Choose Devices Modal
+**FIGURE 4**. Choose Devices Modal
 
 6. Click **Save** to save your selection and go back to the main form.
 7. Modify your **Deployment Action** from the default Install if you wish to uninstall apps from the selected devices.
@@ -87,9 +87,9 @@ Before configuring MovoSuite, you should have the following items in place.
 
 9. Enter information in the **Reason for Request** field if it is required.
 10. Enter information in the **Billing Code** field if it is visible and required (this field can be hidden by the administrator).
-![001](images/req_dep_all_filled.png)
+![005](images/req_dep_all_filled.png)
 
-**FIGURE X**. Completed Deployment Form
+**FIGURE 5**. Completed Deployment Form
 
 11. Click **Submit** to submit the form and be redirected to the home page. The request list will be updated to add your latest request.
 12. At this point you will receive an acknowledgement email that your request has been received and is being processed. As the request is processed, if your administrator has enabled the Actionable email functionality, and you are using a current version of Outlook (desktop or mobile), the email will automatically update with the latest status every time you view it.
@@ -102,21 +102,21 @@ Before configuring MovoSuite, you should have the following items in place.
 *To request your administrator procure an application license from Apple for deployment to devices, perform the following steps:*
 
 1. Navigate to **Request App**.
-![001](images/req_app_all.png)
+![006](images/req_app_all.png)
 
-**FIGURE X**. New App Request Form
+**FIGURE 6**. New App Request Form
 
 2. Using the search engine of your choice, find the Apple App Store URL for the iOS app you wish to deploy. Paste the URL into the URL field of the form.
-![001](images/req_app_search_link.png)
+![007](images/req_app_search_link.png)
 
-**FIGURE X**. Apple App Store URL via search link
+**FIGURE 7**. Apple App Store URL via search link
 
 3. Choose the number of licenses you want your administrator to procure.
 4. Enter information in the **Billing Code** field if it is visible and required (this field can be hidden by the administrator).
 5. Enter any additional comments in the **Comments** field as to why you want to purchase these apps.
-![001](images/req_app_all_filled.png)
+![008](images/req_app_all_filled.png)
 
-**FIGURE X**. Completed Request App form
+**FIGURE 8**. Completed Request App form
 
 6. Click **Submit** to submit your request.
 7. At this point you will receive an acknowledgement email that your request has been received.
@@ -137,17 +137,17 @@ The Configuration tab includes the settings that will be visible only to MovoSui
 2. First, click the **Authorize for Users** button, and when prompted, click **Accept**. This authorizes MovoSuite to query Intune apps and devices on behalf of your users.
 3. Next, click the **Authorize Automation** button, and when prompted, click **Accept**. This authorizes MovoSuite to work with Intune and Azure AD in the background.
 
-![001](images/cfg_onb_auth.png)
+![009](images/cfg_onb_auth.png)
 
-**FIGURE X**. Onboarding Wizard
+**FIGURE 9**. Onboarding Wizard
 
 [back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### General<!-- omit in toc -->
 
-![001](images/cfg_gen_all.png)
+![010](images/cfg_gen_all.png)
 
-**FIGURE X**. Configuration - General
+**FIGURE 10**. Configuration - General
 
 #### Self Service<!-- omit in toc -->
 
@@ -209,9 +209,9 @@ The preferred way to manage administrator access in MovoSuite is via Azure AD **
 
 To add user or group to MovoSuite roles in Azure Active Directory:
 
-![001](images/cfg_gen_rbac.png)
+![011](images/cfg_gen_rbac.png)
 
-**FIGURE X**. Adding Users or Groups to MovoSuite RBAC Roles
+**FIGURE 11**. Adding Users or Groups to MovoSuite RBAC Roles
 
 If not using MovoSuite Azure AD roles, you can choose to use **Administrator Group** assignment. Create a group for your MovoSuite administrators, and then select the group from the dropdown under **Admin Group**.
 
@@ -235,17 +235,17 @@ The App Store country code selection is used to specify the locale for fetching 
 
 Configure the Sender Email address field with the email address of a User Mailbox or Shared Mailbox existing in Exchange Online. Office 365 Group Mailboxes cannot be used for the sender address.
 
-![001](images/cfg_email_send.png) 
+![012](images/cfg_email_send.png) 
 
-**FIGURE X**. Sender Email Address
+**FIGURE 12**. Sender Email Address
 
 #### Notifications Recipient Emails<!-- omit in toc -->
 
 There are three email addresses for backend administrative items. You may use an email-enabled group address for any of these notifications, shown in the figure below.
 
-![001](images/cfg_email_notif.png) 
+![013](images/cfg_email_notif.png) 
 
-**FIGURE X**. E-mail Notification and Message Format
+**FIGURE 13**. E-mail Notification and Message Format
 
 #### Webhook Notifications<!-- omit in toc -->
 
@@ -261,17 +261,17 @@ To configure actionable webhook notifications:
 6. On the 'Setup an incoming Webhook...', click the **Setup a connector** button.
 7. On the Incoming Webhook screen, click **Create**. Then, copy the URL, as shown in the figure below.
 
-![001](images/webhook_url.png)
+![014](images/webhook_url.png)
 
-**FIGURE X**. Webhook URL in Teams
+**FIGURE 14**. Webhook URL in Teams
 
 8. To complete the configuration, go back to the **Configuration > Email** tab of MovoSuite.
 9. Paste the URL from step 7 into one or both fields provided in the 'Webhook Notifications' area.
 10. Click the **Save** button at the bottom of the screen to save your changes.
 
-![001](images/cfg_webhook_notif.png)
+![015](images/cfg_webhook_notif.png)
 
-**FIGURE X**. Webhook Notifications configuration
+**FIGURE 15**. Webhook Notifications configuration
 
 [back to ToC](#table-of-contents)
 
@@ -281,9 +281,9 @@ Configuring your email templates is a simple 2-step process:
 
 **STEP 1: Select the Action**: Select the action for which you wish to configure the e-mail template, shown in Figure X and described in the list below.
 
-![001](images/cfg_email_temp_options.png)
+![016](images/cfg_email_temp_options.png)
 
-**FIGURE X**. Email Template task selection
+**FIGURE 16**. Email Template task selection
 
 - **App Request Received**. When a user requests an app that requires Admin approval, and clicks **Submit Request**, they will receive a message confirming their request was received.
 - **Deployment Approval Request**. When a user requests an app that requires Admin approval, these settings will format the approval request e-mail to the email-enabled group you specify in the Email Notifications section.
@@ -302,9 +302,9 @@ Configuring your email templates is a simple 2-step process:
 
 **IMPORTANT**: Click **Save** to save your changes to the template you are working with BEFORE choosing another!
 
-![001](images/cfg_email_temp.png)
+![017](images/cfg_email_temp.png)
 
-**FIGURE X**. Email Template configuration area
+**FIGURE 17**. Email Template configuration area
 
 [back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
@@ -316,9 +316,9 @@ While still in the Email configuration area, we will generate the Office 365 Pro
 
 1. You will click the **Create Provider ID** button. This will take you to the [**Actionable Email Developer Dashboard**](https://outlook.office.com/connectors/oam/publish) where you can generate this ID. You will need the three items listed under the textbox in Figure 17. 
 
-    ![001](images/cfg_email_origid.png)
+    ![018](images/cfg_email_origid.png)
 
-    Figure X. The Office 365 Provider ID
+    Figure 18. The Office 365 Provider ID
 
 2. You will now provide answers to the following items:
 
@@ -347,9 +347,9 @@ The Integration Settings area of the MovoSuite interface includes:
 - **Naming Authority**. This feature enables automated naming of shared iPads in Intune using the device naming format you specify under **Naming Conventions**.
 - **Naming Conventions**. This feature enables customization of the naming of shared iPads in Intune, including location short codes or asset tag numbers. The naming conventions are defined on a per DEP profile or per AutoPilot profile basis, with support for variables for the short code for the device **location**, **asset tag** (if the device asset tag fields are populated), or **serial number**. If naming conventions are defined with a location variable, MovoSuite will attempt to extract the location code from device name for devices that aren't already assigned to a location.
 
-![001](images/cfg_int_all.png)
+![019](images/cfg_int_all.png)
 
-**FIGURE X**. Asset Integration and Data Ingestion
+**FIGURE 19**. Asset Integration and Data Ingestion
 
 [back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
@@ -363,9 +363,9 @@ Locations in MovoSuite underpin much of the automation, supporting device naming
 
 Additionally, a delegated approver for deployment and purchasing can be defined per location. This enables approval requests to be routed to someone like a principal at a school for first pass, and then routed to the MovoSuite globally defined approvers. You can also select a VPP token for a specific location. Selecting a VPP token for a specific location will add the Intune Scope Tag to the token, allowing members of the location's self service user group to view the apps on that token.
 
-![001](images/cfg_loc_all.png)
+![020](images/cfg_loc_all.png)
 
-**FIGURE X**. Location Details list
+**FIGURE 20**. Location Details list
 
 [back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
@@ -377,9 +377,9 @@ MovoSuite also fetches the latest app artwork URLs and descriptions from Apple, 
 
 Clicking the Expand button on an app in the Apps list will show the install and remove groups that MovoSuite has provisioned. MovoSuite automatically provisions a pair of Install and Remove groups (defaults to _Z-AG-**VPPTOKEN**-iOS-**INSTALL/REMOVE**-**APP NAME**_), and assigns the appropriate Intune app intent to the groups. During self-service deployment processing, MovoSuite adds or removes devices from the appropriate app group.
 
-![001](images/cfg_app_all.png)
+![021](images/cfg_app_all.png)
 
-**FIGURE X**. App List
+**FIGURE 21**. App List
 
 [back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
@@ -391,9 +391,9 @@ Clicking the Expand button on a device in the Devices list will show you additio
 
 To export the Devices list to Excel, click Export above the scroll bar on the right.
 
-![001](images/cfg_dev_all.png)
+![022](images/cfg_dev_all.png)
 
-**FIGURE X**. Device List
+**FIGURE 22**. Device List
 
 [back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
@@ -401,9 +401,9 @@ To export the Devices list to Excel, click Export above the scroll bar on the ri
 
 The Requests area in MovoSuite configuration allows you to view submitted requests and their details, as well as initiate reprocessing of a request in the event one appears stalled. To view details, click the **info** button on a request. To reprocess the request, click the **circular arrow** on the request.
 
-![001](images/cfg_req_all.png)
+![023](images/cfg_req_all.png)
 
-**FIGURE X**. Deployment Request List
+**FIGURE 23**. Deployment Request List
 
 [back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
@@ -411,9 +411,9 @@ The Requests area in MovoSuite configuration allows you to view submitted reques
 
 The Experimental area in MovoSuite configuration allows you to enable features that are in preview for customers. These features generally are still undergoing testing and validation with customers, so enable at your own risk.
 
-![001](images/cfg_exp_all.png)
+![024](images/cfg_exp_all.png)
 
-**FIGURE X**. Experimental Features Page
+**FIGURE 24**. Experimental Features Page
 
 [back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
