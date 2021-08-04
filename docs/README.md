@@ -19,7 +19,7 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
   - [Devices](#devices)
   - [Requests](#requests)
   - [Experimental](#experimental)
-- [Scheduled Actions](#scheduled-actions)
+  - [Scheduled Actions](#scheduled-actions)
 
 ## Install and Configuration Checklist<!-- omit in toc -->
 
