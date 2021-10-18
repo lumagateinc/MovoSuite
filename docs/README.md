@@ -360,10 +360,10 @@ MovoSuite supports the following column values for Excel import and device namin
 |---------------------------|-----------------------------------|
 | Serial Number				| The serial number to match on. 	|
 | Device Name				| The desired display name for the device. |
-| Grades					| **Optional.** The grades this device is assigned to.	|
+| Grades					| **Optional.** A backslash delimited list of grades this device is assigned to, e.g. 'K\1\2'.	|
 | Room						| **Optional.** The room this device is assigned to.	|
 | Location Code				| **Optional.** The short code of the location this device is assigned to. |
-| Device Groups				| **Optional.** Any device groups this device belongs to. Requires the device is also assigned to a location as the device groups are bound to the location. |
+| Device Groups				| **Optional.** A backslash delimited list of device groups this device belongs to, e.g. 'Cart 1\Loaner Pool'. Requires the device is also assigned to a location as the device groups are bound to the location. |
 | Staff						| **Optional, currently unused.** A *1* or a *0* indicating whether this device is a staff device (*1* = yes).	|
 | Student					| **Optional, currently unused.** A *1* or a *0* indicating whether this device is a student device (*1* = yes).	|
 | Asset Tag					| **Optional.** The asset tag for this device.	|
