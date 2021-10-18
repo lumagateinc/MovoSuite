@@ -352,6 +352,22 @@ The Integration Settings area of the MovoSuite interface includes:
 
 **FIGURE 19**. Asset Integration and Data Ingestion
 
+#### Excel Import<!-- omit in toc -->
+
+MovoSuite supports the following column values for Excel import and device naming. A sample template can be downloaded from [here](https://github.com/lumagateinc/MovoSuite/blob/master/samples/AssetsForImport.xlsx).
+
+| Column Name				| Purpose							|
+|---------------------------|-----------------------------------|
+| Serial Number				| The serial number to match on. 	|
+| Device Name				| The desired display name for the device. |
+| Grades					| **Optional.** The grades this device is assigned to.	|
+| Room						| **Optional.** The room this device is assigned to.	|
+| Location Code				| **Optional.** The short code of the location this device is assigned to. |
+| Device Groups				| **Optional.** Any device groups this device belongs to. Requires the device is also assigned to a location as the device groups are bound to the location. |
+| Staff						| **Optional, currently unused.** A *1* or a *0* indicating whether this device is a staff device (*1* = yes).	|
+| Student					| **Optional, currently unused.** A *1* or a *0* indicating whether this device is a student device (*1* = yes).	|
+| Asset Tag					| **Optional.** The asset tag for this device.	|
+
 [back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
 ### Locations<!-- omit in toc -->
