@@ -363,10 +363,14 @@ MovoSuite supports the following column values for Excel import and device namin
 | Grades					| **Optional.** A backslash delimited list of grades this device is assigned to, e.g. 'K\1\2'.	|
 | Room						| **Optional.** The room this device is assigned to.	|
 | Location Code				| **Optional.** The short code of the location this device is assigned to. |
-| Device Groups				| **Optional.** A backslash delimited list of device groups this device belongs to, e.g. 'Cart 1\Loaner Pool'. Requires the device is also assigned to a location as the device groups are bound to the location. |
+| Device Groups				| **Optional.** A backslash delimited list of device groups this device belongs to, e.g. 'Cart 1\Loaner Pool'. Requires the device is also assigned to a location as the device groups are bound to the location.	|
 | Staff						| **Optional, currently unused.** A *1* or a *0* indicating whether this device is a staff device (*1* = yes).	|
 | Student					| **Optional, currently unused.** A *1* or a *0* indicating whether this device is a student device (*1* = yes).	|
 | Asset Tag					| **Optional.** The asset tag for this device.	|
+
+For the Excel Import, MovoSuite has two additional flags: 
+- **Auto-create Missing Locations**. Enable this to automatically create locations if their short codes are missing from MovoSuite.
+- **Auto-create Missing Groups**. Enable this to automatically create device groups if a device is assigned to a group that's not yet created for the location.
 
 [back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
 
