@@ -6,6 +6,6 @@ Clicking the Expand button on a device in the Devices list will show you additio
 
 To export the Devices list to Excel, click Export above the scroll bar on the right.
 
-![022](images/cfg_dev_all.png)
+![022](../images/cfg_dev_all.png)
 
 **FIGURE 22**. Device List
