@@ -7,7 +7,7 @@ The Configuration tab includes the settings that will be visible only to MovoSui
 - [Onboarding](./onboarding.md)
 - [General](./general.md)
 - [Notifications](./notifications.md)
-- [Integration (bulk admin)](./integration.md)
+- [Integration (bulk admin)](./integrations.md)
 - [Locations](./locations.md)
 - [Apps](./apps.md)
 - [Devices](./devices.md)
