@@ -1,8 +1,6 @@
-![Documentation Home](images/header_img.png)
-
 # MovoSuite Changelog
 
-# 2021-11-03
+## 2021-11-03
 
 ### Web UI
 | Type			| Description	|
