@@ -8,7 +8,7 @@ The Configuration tab includes the settings that will be visible only to MovoSui
 - [General](./general)
 - [Notifications](./notifications)
 - [Integration (bulk admin)](./integration)
-- [Locations](./locations)
+- [Locations](./locations.md)
 - [Apps](./apps)
 - [Devices](./devices)
 - [Requests](./requests)
