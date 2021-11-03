@@ -457,8 +457,3 @@ MovoSuite uses the following scheduled actions.
 | Device Unenrollment Update | Every 12 hours                      | Looks for devices that are no longer managed and marks as not enrolled.  |
 | Location List Update       | Every hour, at 15 minutes past      | Evaluates MovoSuite's list of locations and their associated device   groups, scope tags, and roles, provisioning groups, tags, and roles as necessary. If device location groups are in use, adds assigned devices to the respective location groups. |
 | Group Tag Update           | Every hour, at 45 minutes past      | Updates AutoPilot group tag values for devices based on their assigned location. |
-
-### FAQ<!-- omit in toc -->
-
-*What if I don't configure RBAC?*
-Your teachers can view all apps and all devices.
