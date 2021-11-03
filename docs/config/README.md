@@ -4,13 +4,13 @@ The Configuration tab includes the settings that will be visible only to MovoSui
 
 ## Table of Contents
 
-- [Onboarding](./onboarding)
-- [General](./general)
-- [Notifications](./notifications)
-- [Integration (bulk admin)](./integration)
+- [Onboarding](./onboarding.md)
+- [General](./general.md)
+- [Notifications](./notifications.md)
+- [Integration (bulk admin)](./integration.md)
 - [Locations](./locations.md)
-- [Apps](./apps)
-- [Devices](./devices)
-- [Requests](./requests)
-- [Experimental](./experimental)
-- [Scheduled Actions](./schedules)
+- [Apps](./apps.md)
+- [Devices](./devices.md)
+- [Requests](./requests.md)
+- [Experimental](./experimental.md)
+- [Scheduled Actions](./schedules.md)
