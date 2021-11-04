@@ -1,8 +1,12 @@
-# Configuration
+# Admin Guide
 
-The Configuration tab includes the settings that will be visible only to MovoSuite administrators, generally the same person responsible for Intune configuration in your environment. 
+## Setup
 
-## Areas
+Setup instructions can be found [here](../setup/README.md).
+
+## Configuration
+
+The Configuration area includes the settings that will be visible only to MovoSuite administrators, generally the same person responsible for Intune configuration in your environment. 
 
 - [Onboarding](./onboarding.md)
 - [General](./general.md)
@@ -13,8 +17,3 @@ The Configuration tab includes the settings that will be visible only to MovoSui
 - [Devices](./devices.md)
 - [Requests](./requests.md)
 - [Experimental](./experimental.md)
-
-## Scheduled Actions
-More information about scheduled actions can be found here [here](./schedules.md).
-
-[back to ToC](../README.md)

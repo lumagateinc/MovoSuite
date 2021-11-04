@@ -1,4 +1,4 @@
-## Home Screen
+## User Guide
 
 - [Deploy an App](./requestdeployment.md)
 - [Procure an App](./requestapp.md)
