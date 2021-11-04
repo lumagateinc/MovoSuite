@@ -1,4 +1,4 @@
-## Home Screen<!-- omit in toc -->
+## Home Screen
 
 - [Deploy an App](./requestdeployment.md)
 - [Procure an App](./requestapp.md)
@@ -7,4 +7,4 @@
 
 **FIGURE 1**. MovoSuite Home
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md)

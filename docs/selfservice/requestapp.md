@@ -1,4 +1,4 @@
-## Request App<!-- omit in toc -->
+## Request App
 
 *To request your administrator procure an application license from Apple for deployment to devices, perform the following steps:*
 
@@ -22,4 +22,4 @@
 6. Click **Submit** to submit your request.
 7. At this point you will receive an acknowledgement email that your request has been received.
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md) \| [back to Self-Service](./README.md)

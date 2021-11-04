@@ -30,4 +30,4 @@ For the Excel Import, MovoSuite has two additional flags:
 - **Auto-create Missing Locations**. Enable this to automatically create locations if their short codes are missing from MovoSuite.
 - **Auto-create Missing Groups**. Enable this to automatically create device groups if a device is assigned to a group that's not yet created for the location.
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md) \| [back to Configuration](./README.md)

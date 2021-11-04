@@ -12,4 +12,4 @@ Additionally, a delegated approver for deployment and purchasing can be defined 
 
 **FIGURE 20**. Location Details list
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md) \| [back to Configuration](./README.md)

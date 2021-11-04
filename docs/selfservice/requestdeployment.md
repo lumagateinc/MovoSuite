@@ -1,4 +1,4 @@
-## Request Deployment<!-- omit in toc -->
+## Request Deployment
 
 *To request deployment of one more apps to one more devices, perform the following steps:*
 
@@ -34,4 +34,4 @@
 12. At this point you will receive an acknowledgement email that your request has been received and is being processed. As the request is processed, if your administrator has enabled the Actionable email functionality, and you are using a current version of Outlook (desktop or mobile), the email will automatically update with the latest status every time you view it.
 13. Once the request is fully processed (all apps have been approved / declined if any required approval), you will receive an email notification that the request is completed. Your apps should show up within about 20 minutes of the final notification, if not earlier.
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md) \| [back to Self-Service](./README.md)

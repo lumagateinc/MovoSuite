@@ -48,7 +48,7 @@ To configure actionable webhook notifications:
 
 **FIGURE 15**. Webhook Notifications configuration
 
-[back to ToC](#table-of-contents)
+[back to ToC](../README.md)
 
 #### E-mail Templates <!-- omit in toc -->
 
@@ -81,7 +81,7 @@ Configuring your email templates is a simple 2-step process:
 
 **FIGURE 17**. Email Template configuration area
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md) \| [back to checklist](#install-and-configuration-checklist)
 
 > **Note**: MovoSuite sends a command for each device after approval and initial batch of non-approved apps, rather than waiting for the devices to report back before sending the email. The message is sent only after the last app in the list has been provided.  
 
@@ -112,4 +112,4 @@ While still in the Email configuration area, we will generate the Office 365 Pro
 4. Once you have generated the ID, an email notification will be sent to the Exchange administrators of your organizations to approve. If you are a Global Administrator or Exchange Administrator, you can approve the pending ID from the admin view of the **Actionable Email Developer Dashboard** [here](https://https://outlook.office.com/connectors/oam/admin).
 5. Save the **Provider ID (originator)** from the **Actionable Email Developer Dashboard** into MovoSuite, and save the change.
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md) \| [back to Configuration](./README.md)

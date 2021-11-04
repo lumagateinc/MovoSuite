@@ -76,4 +76,4 @@ The App Store country code selection is used to specify the locale for fetching 
 
 #### Group Name Prefixes<!-- omit in toc --> 
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md) \| [back to Configuration](./README.md)

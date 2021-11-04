@@ -1,4 +1,4 @@
-## Install and Configuration Checklist<!-- omit in toc -->
+## Install and Configuration Checklist
 
 The following is a high-level implementation checklist for MovoSuite, with links to detailed steps for each item on the list. 
 
@@ -13,4 +13,4 @@ The following is a high-level implementation checklist for MovoSuite, with links
 - **Step 7: Configure Actionable (live) emails**. [HERE](#generate-the-office-365-originator-id) Navigate to the Email tab in configuration, and click 'Create Provider ID' under the Actionable Emails section. Create a new Provider ID named 'MovoSuite' using the details specified in the Actionable Emails area.
 - **Step 8: Test MovoSuite Functionality**. [HERE](#) Try deploying an app to one of your devices, and test the purchase form.
 
-[back to ToC](#table-of-contents)
+[back to ToC](../README.md)

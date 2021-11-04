@@ -10,4 +10,4 @@ Clicking the Expand button on an app in the Apps list will show the install and 
 
 **FIGURE 21**. App List
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md) \| [back to Configuration](./README.md)

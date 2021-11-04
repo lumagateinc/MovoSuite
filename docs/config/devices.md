@@ -9,3 +9,5 @@ To export the Devices list to Excel, click Export above the scroll bar on the ri
 ![022](../images/cfg_dev_all.png)
 
 **FIGURE 22**. Device List
+
+[back to ToC](../README.md) \| [back to Configuration](./README.md)

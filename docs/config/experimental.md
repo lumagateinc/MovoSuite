@@ -6,4 +6,4 @@ The Experimental area in MovoSuite configuration allows you to enable features t
 
 **FIGURE 24**. Experimental Features Page
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md) \| [back to Configuration](./README.md)

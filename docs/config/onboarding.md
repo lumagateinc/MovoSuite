@@ -10,4 +10,4 @@
 
 **FIGURE 9**. Onboarding Wizard
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md) \| [back to Configuration](./README.md)

@@ -6,4 +6,4 @@ The Requests area in MovoSuite configuration allows you to view submitted reques
 
 **FIGURE 23**. Deployment Request List
 
-[back to ToC](#table-of-contents) \| [back to checklist](#install-and-configuration-checklist)
+[back to ToC](../README.md) \| [back to Configuration](./README.md)
