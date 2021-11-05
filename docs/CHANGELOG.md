@@ -1,5 +1,20 @@
 # MovoSuite Changelog
 
+## 2021-11-05
+
+### Web UI
+
+| Type			| Description		|
+|---------------|-------------------|
+| Bugfix		| Resolve duplicates in self-service device group dropdown.	|
+| Bugfix		| Resolve duplicates in config area dropdowns.	|
+
+### Engine
+
+| Type			| Description		|
+|---------------|-------------------|
+| Feature		| No new features.	|
+
 ## 2021-11-04
 
 ### Web UI
