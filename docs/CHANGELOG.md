@@ -13,6 +13,7 @@
 | Type			| Description		|
 |---------------|-------------------|
 | Feature		| Honour the automatic group repair flag.	|
+| Enhancement	| Improved location code extraction support.	|
 
 ## 2021-11-05
 
