@@ -1,5 +1,19 @@
 # MovoSuite Changelog
 
+## 2021-11-08
+
+### Web UI
+
+| Type			| Description		|
+|---------------|-------------------|
+| Feature		| Add toggle for automatic group repair. If Dynamic Group rules are modified outside MovoSuite, MovoSuite can auto-repair if this is enabled (defaults to on).	|
+
+### Engine
+
+| Type			| Description		|
+|---------------|-------------------|
+| Feature		| Honour the automatic group repair flag.	|
+
 ## 2021-11-05
 
 ### Web UI
