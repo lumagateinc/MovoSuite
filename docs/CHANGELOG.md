@@ -1,5 +1,19 @@
 # MovoSuite Changelog
 
+## 2021-11-10
+
+### Web UI
+
+| Type			| Description		|
+|---------------|-------------------|
+| Bugfix		| Fix incorrectly rendered details (e.g. scope tag) when searching for a specific location in the configuration area.	|
+
+### Engine
+
+| Type			| Description		|
+|---------------|-------------------|
+| Feature		| No new features.	|
+
 ## 2021-11-08
 
 ### Web UI
