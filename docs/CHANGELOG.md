@@ -1,5 +1,19 @@
 # MovoSuite Changelog
 
+## 2021-11-12
+
+### Web UI
+
+| Type			| Description		|
+|---------------|-------------------|
+| Bugfix		| Fix error on saving changes to devices.	|
+
+### Engine
+
+| Type			| Description		|
+|---------------|-------------------|
+| Enhancement	| In some scenarios multiple instances of a device were being returned by Intune to MovoSuite. MovoSuite now updates itself with data from the most recently synced device, which should avoid old data being recorded.	|
+
 ## 2021-11-10
 
 ### Web UI
