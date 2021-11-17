@@ -1,5 +1,19 @@
 # MovoSuite Changelog
 
+## 2021-11-17
+
+### Web UI
+
+| Type			| Description		|
+|---------------|-------------------|
+| Enhancement	| Improved matching of authenticated user claims to backend user data.	|
+
+### Engine
+
+| Type			| Description		|
+|---------------|-------------------|
+| Bugfix		| Added handling for additional special characters in app display names, which was causing some group creation to fail.	|
+
 ## 2021-11-12
 
 ### Web UI
