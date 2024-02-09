@@ -8,6 +8,7 @@
 |-------------|-------------------|
 | Enhancement | Updated to .Net 8, bringing significant performance improvements to the engine. |
 | Enhancement | Migrated to Microsoft FluentUI, providing a more consistent look and feel. |
+| Enhancement | Migrated to Microsoft Graph SDK for .Net v5. |
 
 #### Known Issues
 
