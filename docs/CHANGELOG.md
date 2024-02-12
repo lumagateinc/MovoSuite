@@ -1,5 +1,11 @@
 # MovoSuite Changelog
 
+## Feb. 10, 2024
+
+| Type | Description  |
+|-------------|-------------------|
+| Enhancement | Previously MovoSuite rendered 'default' settings if an authenticated but non-admin user managed to reach the configuration page. This has been changed to only allow admin users to view content on the page at all. |
+
 ## Feb. 3, 2024
 
 ### Web UI
@@ -9,6 +15,12 @@
 | Enhancement | Updated to .Net 8, bringing significant performance improvements to the engine. |
 | Enhancement | Migrated to Microsoft FluentUI, providing a more consistent look and feel. |
 | Enhancement | Migrated to Microsoft Graph SDK for .Net v5. |
+
+### Engine
+
+| Type   | Description  |
+|---------------|-------------------|
+| Enhancement | MovoSuite has under the hood support now to store location code and asset tag data on Azure AD device objects, enabling the usage of dynamic device groups using extension attributes instead of requiring a specific device naming convention. This functionality will be surfaced in the UI in the near future. |
 
 #### Known Issues
 
