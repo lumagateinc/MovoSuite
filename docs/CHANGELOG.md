@@ -15,6 +15,9 @@
 | Enhancement | Updated to .Net 8, bringing significant performance improvements to the engine. |
 | Enhancement | Migrated to Microsoft FluentUI, providing a more consistent look and feel. |
 | Enhancement | Migrated to Microsoft Graph SDK for .Net v5. |
+| Enhancement | Added support for dark mode. |
+| Enhancement | Added support for searching past requests by status, serial number / asset tag, and requestor. |
+| Enhancement | Reduced round trip calls substantially. |
 
 ### Engine
 
