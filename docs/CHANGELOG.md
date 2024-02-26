@@ -39,7 +39,7 @@
 
 * iPadOS 15 does not render the site. Investigation is in progress.
 
-## 2021-11-17
+## Nov. 17, 2021
 
 ### Web UI
 
@@ -53,7 +53,7 @@
 |---------------|-------------------|
 | Bugfix  | Added handling for additional special characters in app display names, which was causing some group creation to fail. |
 
-## 2021-11-12
+## Nov. 12, 2021
 
 ### Web UI
 
@@ -67,7 +67,7 @@
 |---------------|-------------------|
 | Enhancement | In some scenarios multiple instances of a device were being returned by Intune to MovoSuite. MovoSuite now updates itself with data from the most recently synced device, which should avoid old data being recorded. |
 
-## 2021-11-10
+## Nov. 10, 2021
 
 ### Web UI
 
@@ -81,7 +81,7 @@
 |---------------|-------------------|
 | Feature  | No new features. |
 
-## 2021-11-08
+## Nov. 8, 2021
 
 ### Web UI
 
@@ -96,7 +96,7 @@
 | Feature  | Honour the automatic group repair flag. |
 | Enhancement | Improved location code extraction support. |
 
-## 2021-11-05
+## Nov. 5, 2021
 
 ### Web UI
 
@@ -111,7 +111,7 @@
 |---------------|-------------------|
 | Feature  | No new features. |
 
-## 2021-11-04
+## Nov. 4, 2021
 
 ### Web UI
 
@@ -125,7 +125,7 @@
 |---------------|-------------------|
 | Enhancement | Avoid saving device record during location extraction if no changes have occurred. |
 
-## 2021-11-03
+## Nov. 3, 2021
 
 ### Web UI
 
