@@ -1,14 +1,16 @@
 # MovoSuite Changelog
 
-### Web UI
-
 ## Feb. 23, 2024
+
+### Web UI
 
 | Type | Description  |
 |-------------|-------------------|
 | Enhancement | Surfaced the controls for enabling Sync to Azure AD for Asset Tag, Location, and custom value attributes. Please re-authorize the backend automation after enabling sync to Azure AD. |
 
 ## Feb. 10, 2024
+
+### Web UI
 
 | Type | Description  |
 |-------------|-------------------|
