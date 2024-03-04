@@ -1,5 +1,13 @@
 # MovoSuite Changelog
 
+## Mar. 2, 2024
+
+### Web UI
+
+| Type | Description  |
+|-------------|-------------------|
+| Enhancement | Added Version Information and ChangeLog to the Support Tab in the Configuration area. |
+
 ## Feb. 23, 2024
 
 ### Web UI
