@@ -1,5 +1,20 @@
 # MovoSuite Changelog
 
+## Mar. 8, 2024
+
+### Web UI
+
+| Type | Description  |
+|-------------|-------------------|
+| Bugfix | Fixed iPadOS 15 stuck at 'loading' MovoSuite. |
+| Enhancement | Added support for 'System' dark mode setting. |
+
+### Engine
+
+| Type   | Description  |
+|---------------|-------------------|
+| Feature  | Update notification emails to support dark mode in HTML view. |
+
 ## Mar. 2, 2024
 
 ### Web UI
