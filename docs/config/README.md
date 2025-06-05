@@ -18,7 +18,9 @@ The Configuration area includes the settings that will be visible only to MovoSu
 - [Requests](./requests.md)
 - [Experimental](./experimental.md)
 
-## Scheduled Actions
-More information about scheduled actions can be found here [here](./schedules.md).
+## Backend Services
+
+- [Backend Architecture](./backend.md) - Technical architecture and capabilities
+- [Scheduled Actions](./schedules.md) - Automated tasks and scheduling
 
 [back to ToC](../README.md)
