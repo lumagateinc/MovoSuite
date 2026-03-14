@@ -6,8 +6,8 @@ icon: users
 
 # User Guide
 
-- [Deploy an App](./request-deployment)
-- [Procure an App](./request-app)
+- [Deploy an App](#selfservice/request-deployment)
+- [Procure an App](#selfservice/request-app)
 
 ![MovoSuite Home](/MovoSuite/home_all.png)
 

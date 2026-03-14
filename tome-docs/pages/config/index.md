@@ -8,23 +8,23 @@ icon: settings
 
 ## Setup
 
-Setup instructions can be found [here](../setup/checklist).
+Setup instructions can be found [here](#setup/checklist).
 
 ## Configuration
 
 The Configuration area includes the settings that will be visible only to MovoSuite administrators, generally the same person responsible for Intune configuration in your environment.
 
-- [Onboarding](./onboarding)
-- [General](./general)
-- [Notifications](./notifications)
-- [Integration (bulk admin)](./integrations)
-- [Locations](./locations)
-- [Apps](./apps)
-- [Devices](./devices)
-- [Requests](./requests)
-- [Experimental](./experimental)
+- [Onboarding](#config/onboarding)
+- [General](#config/general)
+- [Notifications](#config/notifications)
+- [Integration (bulk admin)](#config/integrations)
+- [Locations](#config/locations)
+- [Apps](#config/apps)
+- [Devices](#config/devices)
+- [Requests](#config/requests)
+- [Experimental](#config/experimental)
 
 ## Backend Services
 
-- [Backend Architecture](./backend) - Technical architecture and capabilities
-- [Scheduled Actions](./schedules) - Automated tasks and scheduling
+- [Backend Architecture](#config/backend) - Technical architecture and capabilities
+- [Scheduled Actions](#config/schedules) - Automated tasks and scheduling

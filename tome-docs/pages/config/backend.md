@@ -27,7 +27,7 @@ MovoSuite Backend (v8.2.16) is built on Azure Functions v4 with .NET 8, providin
 - On-demand data synchronization triggers
 
 ### Timer Triggered Functions
-- Scheduled automation (see [Scheduled Actions](./schedules))
+- Scheduled automation (see [Scheduled Actions](#config/schedules))
 - Health checks and monitoring
 - Data synchronization and updates
 - Queue processing

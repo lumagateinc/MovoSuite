@@ -12,8 +12,8 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 ## Core Features
 
 ### Self-Service Portal
-- [User Guide](./selfservice/index) - Deploy and procure apps through intuitive interface
-- [Admin Guide](./config/index) - Comprehensive configuration and management
+- [User Guide](#selfservice) - Deploy and procure apps through intuitive interface
+- [Admin Guide](#config) - Comprehensive configuration and management
 
 ### Backend Capabilities (v8.2.16)
 
@@ -55,5 +55,5 @@ MovoSuite for Microsoft Intune delivers a simple, powerful self-service experien
 - **Timer-based Scheduling** - Configurable cron-based automation
 
 ### Documentation & Support
-- [Change Log](./changelog)
-- [FAQ](./faqs)
+- [Change Log](#changelog)
+- [FAQ](#faqs)
