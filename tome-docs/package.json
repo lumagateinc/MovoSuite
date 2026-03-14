@@ -1,0 +1,16 @@
+{
+  "name": "tome-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tome dev",
+    "build": "tome build",
+    "deploy": "tome deploy"
+  },
+  "devDependencies": {
+    "@tomehq/cli": "^0.1.0",
+    "@tomehq/theme": "^0.1.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
