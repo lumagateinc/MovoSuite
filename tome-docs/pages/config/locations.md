@@ -14,5 +14,5 @@ Locations in MovoSuite underpin much of the automation, supporting device naming
 
 Additionally, a delegated approver for deployment and purchasing can be defined per location. This enables approval requests to be routed to someone like a principal at a school for first pass, and then routed to the MovoSuite globally defined approvers. You can also select a VPP token for a specific location. Selecting a VPP token for a specific location will add the Intune Scope Tag to the token, allowing members of the location's self service user group to view the apps on that token.
 
-![Location Details list](/cfg_loc_all.png)
+![Location Details list](/MovoSuite/cfg_loc_all.png)
 **FIGURE 20**. Location Details list

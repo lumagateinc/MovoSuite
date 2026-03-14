@@ -5,7 +5,7 @@ description: Self-service app deployment for classroom iPads with Microsoft Intu
 
 # MovoSuite
 
-![Documentation Home](/header_img.png)
+![Documentation Home](/MovoSuite/header_img.png)
 
 MovoSuite for Microsoft Intune delivers a simple, powerful self-service experience for deploying apps to classroom iPads, with comprehensive backend automation and monitoring capabilities.
 

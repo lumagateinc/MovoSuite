@@ -12,5 +12,5 @@ icon: rocket
 2. First, click the **Authorize for Users** button, and when prompted, click **Accept**. This authorizes MovoSuite to query Intune apps and devices on behalf of your users.
 3. Next, click the **Authorize Automation** button, and when prompted, click **Accept**. This authorizes MovoSuite to work with Intune and Azure AD in the background.
 
-![Onboarding Wizard](/cfg_onb_auth.png)
+![Onboarding Wizard](/MovoSuite/cfg_onb_auth.png)
 **FIGURE 9**. Onboarding Wizard

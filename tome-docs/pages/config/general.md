@@ -6,7 +6,7 @@ icon: sliders
 
 # General
 
-![Configuration - General](/cfg_gen_all.png)
+![Configuration - General](/MovoSuite/cfg_gen_all.png)
 **FIGURE 10**. Configuration - General
 
 ## Self Service
@@ -67,7 +67,7 @@ The preferred way to manage administrator access in MovoSuite is via Azure AD **
 
 To add user or group to MovoSuite roles in Azure Active Directory:
 
-![Adding Users or Groups to MovoSuite RBAC Roles](/cfg_gen_rbac.png)
+![Adding Users or Groups to MovoSuite RBAC Roles](/MovoSuite/cfg_gen_rbac.png)
 **FIGURE 11**. Adding Users or Groups to MovoSuite RBAC Roles
 
 If not using MovoSuite Azure AD roles, you can choose to use **Administrator Group** assignment. Create a group for your MovoSuite administrators, and then select the group from the dropdown under **Admin Group**.

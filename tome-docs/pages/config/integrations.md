@@ -40,7 +40,7 @@ The Integration Settings area of the MovoSuite interface includes comprehensive 
 - **Webhook Support** - External system integration via HTTP webhooks
 - **Actionable Messages** - Office 365 actionable message cards for inline approvals
 
-![Asset Integration and Data Ingestion](/cfg_int_all.png)
+![Asset Integration and Data Ingestion](/MovoSuite/cfg_int_all.png)
 **FIGURE 19**. Asset Integration and Data Ingestion
 
 ## Excel Import

@@ -9,18 +9,18 @@ icon: send
 *To request deployment of one or more apps to one or more devices, perform the following steps:*
 
 1. Navigate to **Request Deployment**.
-![Deployment Request UI](/req_dep_all.png)
+![Deployment Request UI](/MovoSuite/req_dep_all.png)
 **FIGURE 2**. Deployment Request UI
 
 2. Click the **Choose Apps** button.
 3. In the modal dialog that pops up, under **Available Apps** click the **+** button next to the app(s) that you wish to deploy. This moves them across to the **Selected Apps** field. Note the indicators for whether an app requires deployment approval or billing code.
-![Choose Apps Modal](/req_dep_apps.png)
+![Choose Apps Modal](/MovoSuite/req_dep_apps.png)
 **FIGURE 3**. Choose Apps Modal
 
 3. Click **Save** to save your selection and go back to the main form.
 4. Click the **Choose Devices** button.
 5. In the modal dialog that pops up, under **Available Devices** click the **+** button next to the device(s) to which you wish to deploy your apps. This moves them across to the **Selected Devices** field.
-![Choose Devices Modal](/req_dep_devices.png)
+![Choose Devices Modal](/MovoSuite/req_dep_devices.png)
 **FIGURE 4**. Choose Devices Modal
 
 6. Click **Save** to save your selection and go back to the main form.
@@ -28,7 +28,7 @@ icon: send
 8. Modify your **Deployment Notifications** from the default if you don't wish to receive all email notifications related to this request.
 9. Enter information in the **Reason for Request** field if it is required.
 10. Enter information in the **Billing Code** field if it is visible and required (this field can be hidden by the administrator).
-![Completed Deployment Form](/req_dep_all_filled.png)
+![Completed Deployment Form](/MovoSuite/req_dep_all_filled.png)
 **FIGURE 5**. Completed Deployment Form
 
 11. Click **Submit** to submit the form and be redirected to the home page. The request list will be updated to add your latest request.

@@ -12,5 +12,5 @@ MovoSuite also fetches the latest app artwork URLs and descriptions from Apple, 
 
 Clicking the Expand button on an app in the Apps list will show the install and remove groups that MovoSuite has provisioned. MovoSuite automatically provisions a pair of Install and Remove groups (defaults to _Z-AG-**VPPTOKEN**-iOS-**INSTALL/REMOVE**-**APP NAME**_), and assigns the appropriate Intune app intent to the groups. During self-service deployment processing, MovoSuite adds or removes devices from the appropriate app group.
 
-![App List](/cfg_app_all.png)
+![App List](/MovoSuite/cfg_app_all.png)
 **FIGURE 21**. App List

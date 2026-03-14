@@ -12,5 +12,5 @@ Clicking the Expand button on a device in the Devices list will show you additio
 
 To export the Devices list to Excel, click Export above the scroll bar on the right.
 
-![Device List](/cfg_dev_all.png)
+![Device List](/MovoSuite/cfg_dev_all.png)
 **FIGURE 22**. Device List

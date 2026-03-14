@@ -16,14 +16,14 @@ icon: bell
 
 Configure the Sender Email address field with the email address of a User Mailbox or Shared Mailbox existing in Exchange Online. Office 365 Group Mailboxes cannot be used for the sender address.
 
-![Sender Email Address](/cfg_email_send.png)
+![Sender Email Address](/MovoSuite/cfg_email_send.png)
 **FIGURE 12**. Sender Email Address
 
 ## Notifications Recipient Emails
 
 There are three email addresses for backend administrative items. You may use an email-enabled group address for any of these notifications, shown in the figure below.
 
-![E-mail Notification and Message Format](/cfg_email_notif.png)
+![E-mail Notification and Message Format](/MovoSuite/cfg_email_notif.png)
 **FIGURE 13**. E-mail Notification and Message Format
 
 ## Webhook Notifications
@@ -40,14 +40,14 @@ To configure actionable webhook notifications:
 6. On the 'Setup an incoming Webhook...', click the **Setup a connector** button.
 7. On the Incoming Webhook screen, click **Create**. Then, copy the URL, as shown in the figure below.
 
-![Webhook URL in Teams](/webhook_url.png)
+![Webhook URL in Teams](/MovoSuite/webhook_url.png)
 **FIGURE 14**. Webhook URL in Teams
 
 8. To complete the configuration, go back to the **Configuration > Email** tab of MovoSuite.
 9. Paste the URL from step 7 into one or both fields provided in the 'Webhook Notifications' area.
 10. Click the **Save** button at the bottom of the screen to save your changes.
 
-![Webhook Notifications configuration](/cfg_webhook_notif.png)
+![Webhook Notifications configuration](/MovoSuite/cfg_webhook_notif.png)
 **FIGURE 15**. Webhook Notifications configuration
 
 ## E-mail Templates
@@ -56,7 +56,7 @@ Configuring your email templates is a simple 2-step process:
 
 **STEP 1: Select the Action**: Select the action for which you wish to configure the e-mail template, shown in Figure 16 and described in the list below.
 
-![Email Template task selection](/cfg_email_temp_options.png)
+![Email Template task selection](/MovoSuite/cfg_email_temp_options.png)
 **FIGURE 16**. Email Template task selection
 
 - **App Request Received**. When a user requests an app that requires Admin approval, and clicks **Submit Request**, they will receive a message confirming their request was received.
@@ -76,7 +76,7 @@ Configuring your email templates is a simple 2-step process:
 
 > **Important**: Click **Save** to save your changes to the template you are working with BEFORE choosing another!
 
-![Email Template configuration area](/cfg_email_temp.png)
+![Email Template configuration area](/MovoSuite/cfg_email_temp.png)
 **FIGURE 17**. Email Template configuration area
 
 ## Generate the Office 365 Provider ID
@@ -85,7 +85,7 @@ While still in the Email configuration area, we will generate the Office 365 Pro
 
 1. You will click the **Create Provider ID** button. This will take you to the Actionable Email Developer Dashboard where you can generate this ID.
 
-    ![The Office 365 Provider ID](/cfg_email_origid.png)
+    ![The Office 365 Provider ID](/MovoSuite/cfg_email_origid.png)
     **FIGURE 18**. The Office 365 Provider ID
 
 2. You will now provide answers to the following items:
