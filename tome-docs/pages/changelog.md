@@ -12,6 +12,14 @@ icon: clock
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Update both changelog files in docs repo |
+
+## Mar. 20, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Feature | Migrated the entire frontend to a modern typed API client (Kiota), improving reliability and reducing errors across all pages. |
 | Feature | Added server-side pagination for devices, apps, and deployment requests, dramatically improving load times for large tenants. |
 | Feature | Added bulk assignment endpoints to eliminate per-device/app API fan-out, resolving browser crashes for tenants with 19,000+ devices. |
