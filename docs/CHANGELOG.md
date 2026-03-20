@@ -1,5 +1,68 @@
 # MovoSuite Changelog
 
+## Mar. 20, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Feature | Migrated the entire frontend to a modern typed API client (Kiota), improving reliability and reducing errors across all pages. |
+| Feature | Added server-side pagination for devices, apps, and deployment requests, dramatically improving load times for large tenants. |
+| Feature | Added bulk assignment endpoints to eliminate per-device/app API fan-out, resolving browser crashes for tenants with 19,000+ devices. |
+| Feature | Added location import wizard supporting both CSV and Excel file uploads with preview and validation. |
+| Feature | Added a Repair Team button to re-detect Teams IDs and reinstall the bot when notifications stop working. |
+| Feature | Exposed additional configuration properties in the web UI for finer tenant control. |
+| Enhancement | Added in-memory caching for configuration lookups, reducing repeated storage calls. |
+| Enhancement | Added OData filter injection protection and query input validation across all endpoints. |
+| Enhancement | Improved hidden app filtering so administrators only see relevant apps in self-service forms. |
+| Enhancement | Added support for batch delete of device groups. |
+| Bugfix | Fixed devices search not triggering a data reload after clearing the search field. |
+| Bugfix | Fixed apps grid showing empty state incorrectly and duplicate request submissions. |
+| Bugfix | Fixed configuration save returning 403 and deployment approval returning 400 in certain scenarios. |
+| Bugfix | Fixed cross-tenant configuration lookup for Lumagate employees accessing customer tenants. |
+| Bugfix | Fixed license count warnings appearing when licenses were actually sufficient. |
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Feature | Added macOS location-based platform group auto-creation, bringing Mac devices to parity with iOS automation. |
+| Feature | Added primary Windows user account removal automation for devices in a specified Entra ID group. |
+| Feature | Added French app metadata population from the Apple App Store API. |
+| Feature | Added scope tag recording in table storage with automatic location references. |
+| Feature | Added $expand support for navigation properties (device groups, app tags, locations) on bulk assignment endpoints. |
+| Feature | Added delegated approval support, allowing approval authority to be delegated to secondary approvers. |
+| Enhancement | Upgraded to .NET 10 multi-targeting (alongside .NET 8) for improved performance. |
+| Enhancement | Migrated to Vertical Slice Architecture (VSA) with MediatR-based CQRS, replacing the legacy monolithic handler pattern. |
+| Enhancement | Standardized all API responses to OData-compliant format with proper error codes and pagination. |
+| Enhancement | Added comprehensive OpenAPI specification with automatic Kiota client generation and publishing. |
+| Enhancement | Group membership lookups now resolve transitive (nested) members, ensuring devices in nested groups are included. |
+| Enhancement | Improved app license safeguards to preserve license counts when the Graph API temporarily returns zero. |
+| Enhancement | Added idempotency guards to prevent duplicate completion notifications on re-queued requests. |
+| Enhancement | Improved device naming to prevent infinite rename loops and update local records after successful renames. |
+| Enhancement | Optimized automation workflows by eliminating O(n²) patterns in device cleanup and location extraction. |
+| Bugfix | Fixed apps disappearing from the request form when VPP tokens expire and are renewed. Apps are now automatically restored on the next sync. |
+| Bugfix | Fixed devices stuck with 'Removed from Intune' status after reappearing in Intune. |
+| Bugfix | Fixed deployment requests creating duplicate Table Storage entities due to inconsistent PartitionKey usage. |
+| Bugfix | Fixed location duplicates caused by race conditions during sync, and added a deduplication cleanup function. |
+| Bugfix | Fixed purchase workflow not processing requests stuck in InProgress or Submitted status. |
+| Bugfix | Fixed approval notifications not being sent for apps with empty approval status. |
+
+### iOS App
+
+| Type | Description |
+|---------------|-------------------|
+| Feature | Released MovoSuite native iOS app with full deployment and purchase request support. |
+| Feature | Added complete French-Canadian (fr-CA) localization with 100% string coverage. |
+| Feature | Added support for dark mode and system appearance settings. |
+| Feature | Added form validation with clear error feedback for required fields. |
+| Enhancement | Migrated to modern SwiftUI architecture with Swift 6 strict concurrency. |
+| Enhancement | Added comprehensive stability and performance improvements for reliable field use. |
+| Enhancement | Added backward compatibility down to iPadOS 15. |
+| Bugfix | Fixed MDM configuration change detection not triggering re-authentication. |
+| Bugfix | Fixed app list showing duplicate entries due to incorrect JSON field mapping. |
+| Bugfix | Fixed loading screen showing raw localization keys instead of translated text. |
+
 ## Mar. 27, 2024
 
 ### Web UI
