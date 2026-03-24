@@ -2,6 +2,14 @@
 
 ## Mar. 24, 2026
 
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Fix submodule detached HEAD in publish-api-client and add PR… |
+
+## Mar. 24, 2026
+
 ### Web UI
 
 | Type | Description |
