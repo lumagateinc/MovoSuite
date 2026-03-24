@@ -1,5 +1,13 @@
 # MovoSuite Changelog
 
+## Mar. 24, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Restore device serial parameter for anonymous webview AP… |
+
 ## Mar. 20, 2026
 
 ### Web UI
