@@ -12,6 +12,15 @@ icon: clock
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Use UriBuilder for safe query param construction and add… |
+| Enhancement | Consolidate device serial state into DeviceSerialPr… |
+
+## Mar. 24, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Restore device serial parameter for anonymous webview AP… |
 
 ## Mar. 20, 2026
