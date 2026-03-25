@@ -6,6 +6,17 @@ icon: clock
 
 # MovoSuite Changelog
 
+## Mar. 25, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Feature | Add rate limiting, health readiness, input validation… |
+| Bugfix | Add clean checkout to prevent case-sensitive duplicate file … |
+| Bugfix | Update submodule with SharePoint hostname derivation fix |
+| Enhancement | Migrate from legacy static Logger to ILogger |
+
 ## Mar. 24, 2026
 
 ### Engine
