@@ -6,6 +6,15 @@
 
 | Type | Description |
 |---------------|-------------------|
+| Feature | Add SharePointHostname config override |
+| Bugfix | Try /teams/ path for Teams-connected SharePoint sites |
+
+## Mar. 25, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
 | Feature | Add rate limiting, health readiness, input validation… |
 | Bugfix | Add clean checkout to prevent case-sensitive duplicate file … |
 | Bugfix | Update submodule with SharePoint hostname derivation fix |
