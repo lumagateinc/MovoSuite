@@ -6,6 +6,14 @@
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Clean submodule stale files causing NETSDK1022 duplicate com… |
+
+## Mar. 25, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
 | Feature | Add SharePointHostname config override |
 | Bugfix | Try /teams/ path for Teams-connected SharePoint sites |
 
