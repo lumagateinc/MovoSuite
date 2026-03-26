@@ -1,5 +1,15 @@
 # MovoSuite Changelog
 
+## Mar. 26, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Feature | Add skills, subagents, hooks, and Azure MCP server |
+| Bugfix | Bump trivy-action to 0.35.0 to resolve supply chain vulnerab… |
+| Bugfix | Harden OData filters, fix HttpClient leak, update subm… |
+
 ## Mar. 25, 2026
 
 ### Engine
