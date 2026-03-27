@@ -1,5 +1,14 @@
 # MovoSuite Changelog
 
+## Mar. 27, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Fall back to AdminNotificationsEmail when no procureme… |
+| Bugfix | Fix missing approval buttons and missing helpdesk noti… |
+
 ## Mar. 26, 2026
 
 ### Engine
