@@ -2,6 +2,15 @@
 
 ## Mar. 28, 2026
 
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Bind $skiptoken query parameter in deployment and purchase … |
+| Bugfix | Add backward compat for legacy continuationToken query param |
+
+## Mar. 28, 2026
+
 ### Engine
 
 | Type | Description |
