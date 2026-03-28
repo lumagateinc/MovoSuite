@@ -6,6 +6,14 @@ icon: clock
 
 # MovoSuite Changelog
 
+## Mar. 28, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Null-guard requestor facts in adaptive card builder |
+
 ## Mar. 27, 2026
 
 ### Engine
