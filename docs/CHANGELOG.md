@@ -2,6 +2,15 @@
 
 ## Mar. 28, 2026
 
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Add missing OpenAPI request body and BadRequest response at… |
+| Bugfix | Prevent duplicate approval notifications for unappro… |
+
+## Mar. 28, 2026
+
 ### Web UI
 
 | Type | Description |
