@@ -8,6 +8,32 @@ icon: clock
 
 ## Mar. 28, 2026
 
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Address all 16 frontend audit findings |
+| Bugfix | Show requested app names and fix RejectButton text |
+| Bugfix | Resolve 21 audit findings across accessibility, theming, a… |
+| Bugfix | Resolve 21 audit findings across accessibility, theming, a… |
+| Bugfix | Comprehensive audit fixes across accessibility, theming, r… |
+| Bugfix | Resolve 14 audit findings in SelectDevicesDialog |
+| Bugfix | Redesign app and device modal rows for better hierarchy, spa… |
+| Bugfix | Misc pending changes from prior sessions |
+| Bugfix | Remove listbox borders, consistent row heights, fix user pro… |
+| Bugfix | Remove h1 focus outline, fix user profile layout, rebalance … |
+| Bugfix | Rebalance home grid to 3.5/3.5/5 proportions |
+| Bugfix | Equal-height dialog cards, consistent request list spacing, … |
+| Bugfix | Ensure app status entity is created for URL-only requests |
+| Bugfix | Comprehensive config tab audit — localization, ARIA, and d… |
+| Bugfix | Dark mode status text contrast, load more pagination, purc… |
+| Bugfix | Add 10 missing localization keys, fix detail panel spacing a… |
+| Bugfix | Widen config request detail panel from 6/6 to 5/7 split |
+| Bugfix | Remove dark background from admin team info box in dark mode |
+| Bugfix | Comprehensive config tab audit — localization, ARIA, and d… |
+
+## Mar. 28, 2026
+
 ### Engine
 
 | Type | Description |
