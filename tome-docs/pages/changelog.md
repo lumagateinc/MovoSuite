@@ -8,6 +8,14 @@ icon: clock
 
 ## Mar. 30, 2026
 
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Prevent AdminGroupId from being cleared when Graph looku… |
+
+## Mar. 30, 2026
+
 ### Engine
 
 | Type | Description |
