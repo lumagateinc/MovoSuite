@@ -8,6 +8,14 @@ icon: clock
 
 ## Mar. 30, 2026
 
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Address PR #292 review feedback |
+
+## Mar. 30, 2026
+
 ### Web UI
 
 | Type | Description |
