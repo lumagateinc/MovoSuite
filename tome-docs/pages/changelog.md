@@ -6,6 +6,16 @@ icon: clock
 
 # MovoSuite Changelog
 
+## Mar. 30, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Ensure app status entity is created for URL-only requests |
+| Bugfix | Pass all requested apps to detail view instead of filt… |
+| Bugfix | Update submodule with deterministic RequestedAppEntity… |
+
 ## Mar. 28, 2026
 
 ### Web UI
