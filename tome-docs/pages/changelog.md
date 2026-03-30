@@ -8,6 +8,23 @@ icon: clock
 
 ## Mar. 30, 2026
 
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Enhancement | Seal 503 classes to enable JIT devirtualization |
+| Bugfix | Update Kiota integration test from Skip to Skiptoken |
+| Bugfix | Prevent premature completion and fix denial display |
+| Bugfix | Fetch app details when app status exists but entity is… |
+| Bugfix | Rebuild full approval card on Refresh instead of minim… |
+| Bugfix | Fix localizer key mismatches in purchase approval card… |
+| Bugfix | Fix card refresh corrupting approval status and locali… |
+| Bugfix | Fix card refresh losing app details and use determinis… |
+| Bugfix | Enrich refresh card with app details and requestor name |
+| Bugfix | Add diagnostic logging for card refresh investigation |
+
+## Mar. 30, 2026
+
 ### Web UI
 
 | Type | Description |
