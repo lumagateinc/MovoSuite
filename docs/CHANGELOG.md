@@ -6,6 +6,14 @@
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Preserve app install/remove group IDs when Graph lookup … |
+
+## Mar. 30, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Grant Lumagate employees admin access in IsUserAdmin |
 
 ## Mar. 30, 2026
