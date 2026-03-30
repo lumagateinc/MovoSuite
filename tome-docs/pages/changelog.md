@@ -12,6 +12,14 @@ icon: clock
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Grant Lumagate employees admin access in IsUserAdmin |
+
+## Mar. 30, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Prevent AdminGroupId from being cleared when Graph looku… |
 
 ## Mar. 30, 2026
