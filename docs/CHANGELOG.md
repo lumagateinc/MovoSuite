@@ -6,6 +6,14 @@
 
 | Type | Description |
 |---------------|-------------------|
+| Enhancement | Deduplicate Lumagate tenant ID constant and use GetTe… |
+
+## Mar. 30, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Preserve app install/remove group IDs when Graph lookup … |
 
 ## Mar. 30, 2026
