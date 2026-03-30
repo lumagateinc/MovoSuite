@@ -6,6 +6,14 @@
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Remove unused IsUserAdmin call and add admin auth tests |
+
+## Mar. 30, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Enhancement | Deduplicate Lumagate tenant ID constant and use GetTe… |
 
 ## Mar. 30, 2026
