@@ -8,6 +8,14 @@ icon: clock
 
 ## Mar. 31, 2026
 
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Use /authorize with incremental consent for automation scopes |
+
+## Mar. 31, 2026
+
 ### Engine
 
 | Type | Description |
