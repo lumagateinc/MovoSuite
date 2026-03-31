@@ -6,6 +6,14 @@
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Split test build from test run to prevent compilation timeout |
+
+## Mar. 31, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Prevent duplicate tag error in API client publish workflow |
 | Bugfix | Create configuration entity when none exists |
 
