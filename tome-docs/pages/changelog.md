@@ -12,6 +12,14 @@ icon: clock
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Update warmup test to expect config entity creation |
+
+## Mar. 31, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Split test build from test run to prevent compilation timeout |
 
 ## Mar. 31, 2026
