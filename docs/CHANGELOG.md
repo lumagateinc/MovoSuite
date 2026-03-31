@@ -2,6 +2,15 @@
 
 ## Mar. 31, 2026
 
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Prevent duplicate tag error in API client publish workflow |
+| Bugfix | Create configuration entity when none exists |
+
+## Mar. 31, 2026
+
 ### Web UI
 
 | Type | Description |
