@@ -6,6 +6,14 @@ icon: clock
 
 # MovoSuite Changelog
 
+## Mar. 31, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Initialize PartitionKey for new config entities before save |
+
 ## Mar. 30, 2026
 
 ### Engine
