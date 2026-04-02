@@ -1,5 +1,16 @@
 # MovoSuite Changelog
 
+## Apr. 2, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Comprehensive config tab audit — localization, ARIA, and d… |
+| Bugfix | Extract inline styles to scoped CSS and add @key to Onboardi… |
+| Bugfix | Add ShouldRender optimization to remaining 9 config tabs |
+| Bugfix | Prevent onboarding wizard buttons from being clipped |
+
 ## Mar. 31, 2026
 
 ### Web UI
