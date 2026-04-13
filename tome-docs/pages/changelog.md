@@ -12,6 +12,16 @@ icon: clock
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Retry Step 2 rename when ManagementName updated b… |
+| Bugfix | Don't hide apps on expired tokens if Graph still retur… |
+| Enhancement | Revert "fix(app-sync): don't hide apps on expired tokens if Graph sti… |
+
+## Apr. 13, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Add missing 400 responses and remove duplicate continuation… |
 | Bugfix | Update movosuite-common to fix nullable DTO required fi… |
 | Feature | Add Microsoft Education Graph support feature |
