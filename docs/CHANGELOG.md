@@ -1,5 +1,16 @@
 # MovoSuite Changelog
 
+## Apr. 13, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Add missing 400 responses and remove duplicate continuation… |
+| Bugfix | Update movosuite-common to fix nullable DTO required fi… |
+| Feature | Add Microsoft Education Graph support feature |
+| Feature | Sync Notes column from Excel to device Management… |
+
 ## Apr. 2, 2026
 
 ### Web UI
