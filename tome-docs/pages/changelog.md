@@ -12,6 +12,14 @@ icon: clock
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Install ASP.NET Core 10.0 runtime for integration tests |
+
+## Apr. 13, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Multi-target infrastructure tests for net8.0 and net10.0 |
 
 ## Apr. 13, 2026
