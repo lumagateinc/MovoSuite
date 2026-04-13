@@ -6,6 +6,14 @@
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Multi-target infrastructure tests for net8.0 and net10.0 |
+
+## Apr. 13, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Retry Step 2 rename when ManagementName updated b… |
 | Bugfix | Don't hide apps on expired tokens if Graph still retur… |
 | Enhancement | Revert "fix(app-sync): don't hide apps on expired tokens if Graph sti… |
