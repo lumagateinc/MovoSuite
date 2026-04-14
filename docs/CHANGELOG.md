@@ -1,5 +1,13 @@
 # MovoSuite Changelog
 
+## Apr. 14, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Preserve DisplayName when rename command is pending |
+
 ## Apr. 13, 2026
 
 ### Engine
