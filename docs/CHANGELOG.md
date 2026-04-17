@@ -1,5 +1,14 @@
 # MovoSuite Changelog
 
+## Apr. 17, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Filter out stale and removed-from-Intune devices |
+| Bugfix | Remove Status filter from OData in endpoints and naming… |
+
 ## Apr. 14, 2026
 
 ### Engine
