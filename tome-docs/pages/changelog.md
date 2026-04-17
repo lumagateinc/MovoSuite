@@ -12,6 +12,16 @@ icon: clock
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Fix+chore: PR #161 review fixes + React i18n sweep |
+| Feature | Phase 4 — Notifications Templates, Integrations asset CRUD |
+| Bugfix | Use correct config flag names so nav shows Deploy/Procure |
+
+## Apr. 17, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Home/Deploy/Procure audit — performance, inline styles, an… |
 | Bugfix | Remove incorrect ::deep prefix from scoped CSS selectors |
 | Bugfix | Move Virtualize component styles to global CSS |
