@@ -6,6 +6,16 @@
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Install Azure CLI via Python venv (no brew required) |
+| Feature | Close parity gaps from hosted-site walkthrough |
+| Bugfix | Surface real validation errors; reject malformed… |
+
+## Apr. 17, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Set DOTNET_INSTALL_DIR via GITHUB_ENV, not job-env |
 
 ## Apr. 17, 2026
