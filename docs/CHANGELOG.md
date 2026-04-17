@@ -2,6 +2,41 @@
 
 ## Apr. 17, 2026
 
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Home/Deploy/Procure audit — performance, inline styles, an… |
+| Bugfix | Remove incorrect ::deep prefix from scoped CSS selectors |
+| Bugfix | Move Virtualize component styles to global CSS |
+| Bugfix | Fix dialog shrinking on search and enable live filtering |
+| Bugfix | Update movosuite-common to fix nullable DTO required fi… |
+| Feature | Add Education Graph Support frontend pages and config toggle |
+| Feature | Regenerate Kiota client with Education endpoints |
+| Bugfix | Exclude removed-from-Intune devices and show hidden app… |
+| Bugfix | Set DOTNET_INSTALL_DIR to avoid permission denied on self-ho… |
+| Feature | Scaffold React 19 + Vite frontend (Phase 0 foundation) |
+| Feature | Phase 1 - auth shell, error boundary, and dev server config |
+| Feature | Match Blazor layout styling with custom theme and brand … |
+| Feature | Phase 2 - form infrastructure and first config pages |
+| Feature | Phase 2 - port General, Notifications, Onboarding, Integ… |
+| Feature | Phase 3 - DataTable component and all grid-based config … |
+| Bugfix | Install .NET 8 runtime alongside .NET 10 SDK |
+| Feature | Phase 4 - dialog components for CRUD operations |
+| Feature | Phase 5 - Deploy and Procure complex forms |
+| Feature | Phase 6 - file operations, code splitting, polish |
+| Bugfix | Bind $skiptoken param in Devices/Apps controllers, hide educatio… |
+| Bugfix | Filter RemovedFromIntune devices in-memory instead of OData |
+| Feature | Phase 7 - side-by-side hosting at /v2 + Vitest + CI build |
+| Bugfix | Address PR review feedback — tenant validation, cleanup, … |
+| Bugfix | Set MSAL redirect URI to /v2/ base path |
+| Feature | Phase 0+1 — lookup/crud hooks + live Home request history |
+| Feature | Phase 2 CRUD wave — Apps, Devices, DeviceGroups, Locatio… |
+| Feature | Phase 3 — master/detail request views |
+| Feature | Phase 5+6 — port resx localization keys + drop dead stub |
+
+## Apr. 17, 2026
+
 ### Engine
 
 | Type | Description |
