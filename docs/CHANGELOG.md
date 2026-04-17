@@ -6,6 +6,14 @@
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Extract array to static readonly to satisfy CA1861 |
+
+## Apr. 17, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Fix+chore: PR #161 review fixes + React i18n sweep |
 | Feature | Phase 4 — Notifications Templates, Integrations asset CRUD |
 | Bugfix | Use correct config flag names so nav shows Deploy/Procure |
