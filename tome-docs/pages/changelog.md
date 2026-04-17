@@ -12,6 +12,14 @@ icon: clock
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Set DOTNET_INSTALL_DIR via GITHUB_ENV, not job-env |
+
+## Apr. 17, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Extract array to static readonly to satisfy CA1861 |
 
 ## Apr. 17, 2026
