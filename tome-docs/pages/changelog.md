@@ -8,6 +8,14 @@ icon: clock
 
 ## Apr. 20, 2026
 
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Feature | Push inline filters into OData; adopt shared helpers |
+
+## Apr. 20, 2026
+
 ### Web UI
 
 | Type | Description |
