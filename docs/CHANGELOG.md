@@ -2,6 +2,14 @@
 
 ## Apr. 20, 2026
 
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Fall back to tenant admin Teams channel when no approv… |
+
+## Apr. 20, 2026
+
 ### Web UI
 
 | Type | Description |
