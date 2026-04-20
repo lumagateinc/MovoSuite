@@ -12,6 +12,15 @@ icon: clock
 
 | Type | Description |
 |---------------|-------------------|
+| Feature | Default NotifyByTeams=true when tenant has Teams inte… |
+| Bugfix | Unify paginated mode with search-mode so in-memory filt… |
+
+## Apr. 20, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Pin odataFilter on count/search/fallback paths + bump s… |
 | Enhancement | Dedupe "ManagedDeviceId ne ''" literal in BuildPla… |
 
