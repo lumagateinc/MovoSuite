@@ -6,6 +6,15 @@ icon: clock
 
 # MovoSuite Changelog
 
+## Apr. 20, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Pin odataFilter on count/search/fallback paths + bump s… |
+| Enhancement | Dedupe "ManagedDeviceId ne ''" literal in BuildPla… |
+
 ## Apr. 17, 2026
 
 ### Web UI
