@@ -12,6 +12,14 @@ icon: clock
 
 | Type | Description |
 |---------------|-------------------|
+| Bugfix | Paginate at the Table Storage layer + push search to OData… |
+
+## Apr. 20, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Remove ShouldRender gate on DeployFormDeviceItem + DeployFor… |
 
 ## Apr. 20, 2026
