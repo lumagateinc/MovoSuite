@@ -12,6 +12,14 @@ icon: clock
 
 | Type | Description |
 |---------------|-------------------|
+| Enhancement | Use shared ODataStartsWithFilter + CompoundCon… |
+
+## Apr. 20, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
 | Bugfix | Paginate at the Table Storage layer + push search to OData… |
 
 ## Apr. 20, 2026
