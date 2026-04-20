@@ -2,6 +2,14 @@
 
 ## Apr. 20, 2026
 
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Re-render select dialogs after add/remove so newly-picked it… |
+
+## Apr. 20, 2026
+
 ### Engine
 
 | Type | Description |
