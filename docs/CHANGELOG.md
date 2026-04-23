@@ -1,5 +1,13 @@
 # MovoSuite Changelog
 
+## Apr. 23, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Feature | Push Excel notes to Intune managedDevice.notes |
+
 ## Apr. 20, 2026
 
 ### Engine
