@@ -1,5 +1,13 @@
 # MovoSuite Changelog
 
+## Apr. 24, 2026
+
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Normalize empty DeviceName on PATCH + bump movosuite-co… |
+
 ## Apr. 23, 2026
 
 ### Engine
