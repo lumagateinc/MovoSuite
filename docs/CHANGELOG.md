@@ -2,6 +2,18 @@
 
 ## Apr. 27, 2026
 
+### Web UI
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Stop pre-filling the group-name field with a times… |
+| Bugfix | Add search + ShortCode-first sort to location dro… |
+| Bugfix | Make rename affordance discoverable |
+| Feature | Wire up the Add All button to the EnableAddAllButt… |
+| Bugfix | Log filter-chain stage counts in GetEnrichedApps |
+
+## Apr. 27, 2026
+
 ### Engine
 
 | Type | Description |
