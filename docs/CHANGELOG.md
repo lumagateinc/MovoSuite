@@ -1,5 +1,13 @@
 # MovoSuite Changelog
 
+## Apr. 27, 2026
+
+### Engine
+
+| Type | Description |
+|---------------|-------------------|
+| Bugfix | Backfill Intune notes when local already in sync |
+
 ## Apr. 24, 2026
 
 ### Engine
