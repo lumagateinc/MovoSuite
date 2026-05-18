@@ -10,9 +10,9 @@ on:
 
 jobs:
   claude:
-    uses: lumagateinc/org-workflows/.github/workflows/_claude-comment-responder.yml@main
+    uses: lumagateinc/org-workflows/.github/workflows/_claude-comment-responder.yml@v1
     secrets: inherit
     with:
       max-turns: 15
       allowed-tools: 'Bash(git log:*),Bash(git diff:*),Bash(grep:*)'
-      allowed-bots: '*'
+      allowed-bots: 'claude'

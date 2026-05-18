@@ -8,7 +8,7 @@ on:
 
 jobs:
   claude:
-    uses: lumagateinc/org-workflows/.github/workflows/_claude-pr-review.yml@main
+    uses: lumagateinc/org-workflows/.github/workflows/_claude-pr-review.yml@v1
     secrets: inherit
     with:
       max-turns: 15
