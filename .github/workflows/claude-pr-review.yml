@@ -1,0 +1,17 @@
+name: Claude Code - PR Review
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  claude:
+    uses: lumagateinc/org-workflows/.github/workflows/_claude-pr-review.yml@main
+    secrets: inherit
+    with:
+      max-turns: 15
+      allowed-tools: 'Bash(git log:*),Bash(git diff:*),Bash(grep:*)'
+      allowed-bots: 'claude'
+      fetch-depth: 0
